@@ -1,0 +1,1779 @@
+{
+  "url": "https://openai.com/",
+  "meta": {
+    "title": "OpenAI | Research & Deployment",
+    "description": "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission.",
+    "ogImage": "https://images.ctfassets.net/kftzwdyauwt9/3KGOHkSXu53naMuSFNaiwv/cdb0e2f899f524abb71314ab20e09c9c/OAI-white-on-black.png?w=1600&h=900&fit=fill"
+  },
+  "fonts": [
+    "\"OpenAI Sans\", \"OpenAI Sans Variable Scripts\", sans-serif"
+  ],
+  "fontLinks": [
+    "https://openai.com/_next/static/chunks/0vqxv16kkwuqm.css?dpl=dpl_ATno49NYpKXoekXUJzdpooXSb89S",
+    "https://openai.com/_next/static/chunks/0gh_9d~6-1ec9.css?dpl=dpl_ATno49NYpKXoekXUJzdpooXSb89S",
+    "https://openai.com/_next/static/chunks/05q9m64~uiv-7.css?dpl=dpl_ATno49NYpKXoekXUJzdpooXSb89S",
+    "https://openai.com/_next/static/chunks/05reqfv3dbbs~.css?dpl=dpl_ATno49NYpKXoekXUJzdpooXSb89S",
+    "https://openai.com/_next/static/chunks/098h_h-s-bg98.css?dpl=dpl_ATno49NYpKXoekXUJzdpooXSb89S",
+    "https://openai.com/_next/static/chunks/01ggeu_ssxk-o.css?dpl=dpl_ATno49NYpKXoekXUJzdpooXSb89S",
+    "https://openai.com/_next/static/chunks/15o8nug6.3n94.css?dpl=dpl_ATno49NYpKXoekXUJzdpooXSb89S",
+    "https://openai.com/_next/static/chunks/14vt7hcy8h7wy.css?dpl=dpl_ATno49NYpKXoekXUJzdpooXSb89S",
+    "https://openai.com/_next/static/chunks/0efr3qehp9w2z.css?dpl=dpl_ATno49NYpKXoekXUJzdpooXSb89S",
+    "https://openai.com/_next/static/chunks/0st71id~~8w4j.css?dpl=dpl_ATno49NYpKXoekXUJzdpooXSb89S",
+    "https://openai.com/_next/static/chunks/0prd7-4t0view.css?dpl=dpl_ATno49NYpKXoekXUJzdpooXSb89S",
+    "https://openai.com/_next/static/chunks/0jo0k~_-lb51x.css?dpl=dpl_ATno49NYpKXoekXUJzdpooXSb89S",
+    "https://openai.com/_next/static/chunks/16lmw-j1~z090.css?dpl=dpl_ATno49NYpKXoekXUJzdpooXSb89S",
+    "https://openai.com/_next/static/chunks/0ezh0vsd5vjc~.css?dpl=dpl_ATno49NYpKXoekXUJzdpooXSb89S",
+    "https://openai.com/_next/static/chunks/01caeu9a19j12.css?dpl=dpl_ATno49NYpKXoekXUJzdpooXSb89S",
+    "https://openai.com/_next/static/chunks/03u0te04nx-jy.css?dpl=dpl_ATno49NYpKXoekXUJzdpooXSb89S",
+    "https://openai.com/_next/static/chunks/0pcz1hxoyj8fs.css?dpl=dpl_ATno49NYpKXoekXUJzdpooXSb89S"
+  ],
+  "favicons": [
+    {
+      "href": "https://openai.com/favicon.ico?favicon.0w1tl_z9koc07.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "href": "https://openai.com/apple-icon.png?apple-icon.02be~wu.bus9e.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "href": "https://openai.com/favicon.svg",
+      "sizes": "",
+      "type": "image/svg+xml"
+    }
+  ],
+  "colorSamples": {
+    "body": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "\"OpenAI Sans\", \"OpenAI Sans Variable Scripts\", sans-serif",
+      "lineHeight": "27.999px",
+      "letterSpacing": "-0.17px"
+    },
+    "header": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "\"OpenAI Sans\", \"OpenAI Sans Variable Scripts\", sans-serif",
+      "lineHeight": "27.999px",
+      "letterSpacing": "-0.17px"
+    },
+    "nav": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "\"OpenAI Sans\", \"OpenAI Sans Variable Scripts\", sans-serif",
+      "lineHeight": "27.999px",
+      "letterSpacing": "-0.17px"
+    },
+    "main": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "\"OpenAI Sans\", \"OpenAI Sans Variable Scripts\", sans-serif",
+      "lineHeight": "27.999px",
+      "letterSpacing": "-0.17px"
+    },
+    "h2": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "20.0282px",
+      "fontWeight": "500",
+      "fontFamily": "\"OpenAI Sans\", \"OpenAI Sans Variable Scripts\", sans-serif",
+      "lineHeight": "24.0524px",
+      "letterSpacing": "-0.200282px"
+    },
+    "p": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "\"OpenAI Sans\", \"OpenAI Sans Variable Scripts\", sans-serif",
+      "lineHeight": "19.6px",
+      "letterSpacing": "normal"
+    },
+    "a": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0.04)",
+      "fontSize": "13px",
+      "fontWeight": "500",
+      "fontFamily": "\"OpenAI Sans\", \"OpenAI Sans Variable Scripts\", sans-serif",
+      "lineHeight": "13px",
+      "letterSpacing": "normal"
+    },
+    "button": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "\"OpenAI Sans\", \"OpenAI Sans Variable Scripts\", sans-serif",
+      "lineHeight": "27.999px",
+      "letterSpacing": "-0.17px"
+    },
+    "footer": {
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "fontFamily": "\"OpenAI Sans\", \"OpenAI Sans Variable Scripts\", sans-serif",
+      "lineHeight": "27.999px",
+      "letterSpacing": "-0.17px"
+    }
+  },
+  "sections": [
+    {
+      "index": 0,
+      "tag": "span",
+      "id": null,
+      "classes": "sr-only",
+      "role": null,
+      "ariaLabel": null,
+      "top": 53,
+      "height": 1,
+      "width": 1,
+      "textPreview": "OpenAI | Research & Deployment",
+      "childCount": 0,
+      "hasVideo": false,
+      "imgCount": 0,
+      "linkCount": 0,
+      "heading": null,
+      "styles": {
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "fontFamily": "\"OpenAI Sans\", \"OpenAI Sans Variable Scripts\", sans-serif",
+        "lineHeight": "27.999px",
+        "letterSpacing": "-0.17px",
+        "color": "rgb(0, 0, 0)",
+        "margin": "-1px",
+        "width": "1px",
+        "height": "1px",
+        "display": "block",
+        "flexDirection": "row",
+        "border": "0px solid rgb(229, 231, 235)",
+        "position": "absolute",
+        "opacity": "1",
+        "transition": "all",
+        "objectFit": "fill"
+      }
+    },
+    {
+      "index": 1,
+      "tag": "article",
+      "id": null,
+      "classes": "flex min-w-0 flex-col gap-20 @md:gap-30",
+      "role": null,
+      "ariaLabel": null,
+      "top": 54,
+      "height": 5748,
+      "width": 390,
+      "textPreview": "What can I help with?\nMessage ChatGPT\nQuiz me on vocabulary\nPlan a surf trip to Costa Rica in August\nIndia stock market today\nExplica por qué el maíz palomitas explota\nTeach me Mahjong for beginners\nFind hiking boots for wide feet\nExplain this code\nWas mach ich in Berlin wenn es regnet?\nWhat are some outdoor markets in Mexico City?\nRédigez une note de remerciement\nRecommend an easy potluck dish\nハー",
+      "childCount": 7,
+      "hasVideo": true,
+      "imgCount": 20,
+      "linkCount": 29,
+      "heading": "Recent news",
+      "styles": {
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "fontFamily": "\"OpenAI Sans\", \"OpenAI Sans Variable Scripts\", sans-serif",
+        "lineHeight": "27.999px",
+        "letterSpacing": "-0.17px",
+        "color": "rgb(0, 0, 0)",
+        "width": "390px",
+        "height": "5748.16px",
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "80px",
+        "border": "0px solid rgb(229, 231, 235)",
+        "position": "static",
+        "opacity": "1",
+        "transition": "all",
+        "objectFit": "fill"
+      }
+    }
+  ],
+  "semantic": [
+    {
+      "index": 0,
+      "tag": "header",
+      "id": null,
+      "classes": "",
+      "top": 0,
+      "height": 0,
+      "heading": null,
+      "textPreview": "Skip to main content\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nTry ChatGPT\n(opens in a new window)\nLogin"
+    },
+    {
+      "index": 1,
+      "tag": "nav",
+      "id": null,
+      "classes": "nav-desktop:-me-6 nav-desktop:mask-[linear-gradient(to_right,black,black_calc(100%-1.5rem),transparent_calc(100%-0.5rem),transparent)] nav-desktop:[-webkit-mask-image:linear-gradient(to_right,black,bl",
+      "top": 0,
+      "height": 0,
+      "heading": null,
+      "textPreview": "ResearchProductsBusinessDevelopersCompanyFoundation(opens in a new window)"
+    },
+    {
+      "index": 2,
+      "tag": "footer",
+      "id": null,
+      "classes": "@container mt-30 mb-8",
+      "top": 5922,
+      "height": 2612,
+      "heading": null,
+      "textPreview": "Research\nResearch Index\nResearch Overview\nEconomic Research\nLatest Advancements\nGPT-5.6\nGPT-5.5\nGPT-5.4\nSafety\nSafety Approach\nDeployment Safety\n(opens in a new window)\nSecurity & Privacy\nTrust & Transparency\nProducts\nChatGPT\n(opens in a new window)\nChatGPT Business\n(opens in a new window)\nChatGPT E"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5uOBQ9CN3HA6yzWugjzzYZ/b5fe018bce4814a145bb9c8e57422db6/gpt-5-6-poster.png?w=3840&q=90&fm=webp",
+      "alt": "\"\"",
+      "width": 1316,
+      "height": 1645,
+      "loading": "lazy"
+    },
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5uOBQ9CN3HA6yzWugjzzYZ/b5fe018bce4814a145bb9c8e57422db6/gpt-5-6-poster.png?w=3840&q=90&fm=webp",
+      "alt": "\"\"",
+      "width": 1316,
+      "height": 1645,
+      "loading": "eager"
+    },
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2P4v0ivRnOu6z9sJqDrJj5/d28b76a7ed3a8a53261f8eba4c021740/Superapp_Blog_Art_Card_-_Motion.png?w=3840&q=90&fm=webp",
+      "alt": "ChatGPT Work menu in a browser window against a starry background, with Work selected and Codex, Scheduled, and Sites options shown.",
+      "width": 390,
+      "height": 390,
+      "loading": "lazy"
+    },
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4vJ1lSvYeKz0zM4RVCKwIC/855f7e54052d8a7635e4bf45adf41737/Art_Card_1_1.png?w=3840&q=90&fm=webp",
+      "alt": "Art Card 1 1",
+      "width": 390,
+      "height": 390,
+      "loading": "lazy"
+    },
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/735NOZviyogUBIFxd2EmWX/fa8baf9fc26e64f442ffa86d5fd9a41e/Art_Card__6_.png?w=3840&q=90&fm=webp",
+      "alt": "Expanding Daybreak Art Card",
+      "width": 390,
+      "height": 390,
+      "loading": "lazy"
+    },
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7hmtkjKv0DxS4Yt8mQZju2/c168bfa2010da64bcc9dd60d6b5491e8/Art_Card__1_.png?w=3840&q=90&fm=webp",
+      "alt": "How agents are transforming work > Cover image",
+      "width": 390,
+      "height": 390,
+      "loading": "lazy"
+    },
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/36doI12YCwUtp1hzD4d8bj/84e67c565f39e7d5ca3ee011efa69756/confidential-submission-of-draft-s-1-to-the-sec-1x1.png?w=3840&q=90&fm=webp",
+      "alt": "Confidential submission of draft S-1 to the SEC > cover image",
+      "width": 390,
+      "height": 390,
+      "loading": "lazy"
+    },
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/bEe28mW3dEOj9pKJsPp2u/13f7bed9e86b0667ba924479d62f98e4/Art_Card_1080x1080_1.png?w=3840&q=90&fm=webp",
+      "alt": "Built for broad benefit > cover",
+      "width": 390,
+      "height": 390,
+      "loading": "lazy"
+    },
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/26wgJNYWk0soRoyZvBmYmo/dc80fc33c0a60bd566816f2323f31dc2/Art_card__4_.png?w=3840&q=90&fm=webp",
+      "alt": "Art card (4)",
+      "width": 390,
+      "height": 390,
+      "loading": "lazy"
+    },
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4zSr4YNWXIEYz20piN2bxf/6f9a561be6055802914aee0a3bb671d7/ArtCard-Personal-Finance.png?w=3840&q=90&fm=webp",
+      "alt": "Personal finance in ChatGPT > Media > Cover",
+      "width": 390,
+      "height": 390,
+      "loading": "lazy"
+    },
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/7x4viZ0DsQtxQpAgnYYheQ/8dfe028356aceac9e83da6cb837d6864/Saftey-Art-Card-1080x1080.png?w=3840&q=90&fm=webp",
+      "alt": "A soft, abstract gradient dominated by pink and blue hues, with gentle vertical blending and a warm orange-yellow glow",
+      "width": 390,
+      "height": 390,
+      "loading": "lazy"
+    },
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2tgWg3FVo92ztow3wQjynu/6803dbad048ec780c8f0c7c46347ebe9/OpenAI_Falcon_1x1.jpg?w=3840&q=90&fm=webp",
+      "alt": "A cyclist pushes a fat-tire bike across a wide snowy landscape.",
+      "width": 0,
+      "height": 0,
+      "loading": "lazy"
+    },
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5Owa7Jyi5pMx1lDrvN1B2C/3036661e68edf2e77d2d5d2454653740/2026_04_Gardi_ProjectOwl_KittPeak_Day1_02144.jpg?w=3840&q=90&fm=webp",
+      "alt": "CK Chan stands inside a large radio telescope dish.",
+      "width": 0,
+      "height": 0,
+      "loading": "lazy"
+    },
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2sMgyKsbMrlLNgBeM8SYAh/83460e94830cfb5865cddb57e6fe837f/OpenAI_Ganassi_1x1.jpg?w=3840&q=90&fm=webp",
+      "alt": "OpenAI Ganassi 1x1",
+      "width": 0,
+      "height": 0,
+      "loading": "lazy"
+    },
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6PqehRMmS1oVuin6e3VWYq/b96f1c7b5a2ac2c08a887591b8486ed3/ArtCard-Polynomial-Construction.png?w=3840&q=90&fm=webp",
+      "alt": "Geometry > ArtCard > Polynomial Construction",
+      "width": 0,
+      "height": 0,
+      "loading": "lazy"
+    },
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/6DOv5mMIaI2sbsgdDbeiiY/d2d071aac3555468336b870cfeb9736e/OAI_GPT-Rosaling_Art_Card_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "OAI GPT-Rosaling Art Card 1x1",
+      "width": 0,
+      "height": 0,
+      "loading": "lazy"
+    },
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5GCZHArpg3FLRTissb13aX/50b2716c198dbbc4cf241b05faeee97c/OAI_Monitoring_internal_deployments_for_loss_of_control_risks_Art_Card_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "OAI Monitoring internal deployments for loss of control risks Art Card 1x1",
+      "width": 0,
+      "height": 0,
+      "loading": "lazy"
+    },
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/2A9IYNIXnFR7s8lAQ9BKby/c98bd4af069478f3317f7d2d6aa98cc2/oai_Choco_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "oai Choco 1x1",
+      "width": 0,
+      "height": 0,
+      "loading": "lazy"
+    },
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/4QsBeXNSb2qFXZHe4SQ1hb/6cf266e7e4e2482688290cbc159b762c/oai_CyberAgent_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "oai CyberAgent 1x1",
+      "width": 0,
+      "height": 0,
+      "loading": "lazy"
+    },
+    {
+      "src": "https://images.ctfassets.net/kftzwdyauwt9/5KZQBYyY2LBtllikqf9aul/6143158d9c259eed5aafb47cdac9bcdd/oai_GradientLabs_1x1.png?w=3840&q=90&fm=webp",
+      "alt": "oai GradientLabs 1x1",
+      "width": 0,
+      "height": 0,
+      "loading": "lazy"
+    },
+    {
+      "src": "https://bat.bing.com/action/0?ti=187204252&Ver=2&mid=2c1d5150-2da8-48c4-9c78-e6af6ce625d7&bo=1&sid=e36ae48080ce11f1929e81e68f82a48d&vid=e36ad48080ce11f1ae3c613f7efb8a08&vids=1&msclkid=N&pi=0&lg=en-US&sw=390&sh=844&sc=24&tl=OpenAI%20%7C%20Research%20%26%20Deployment&p=https%3A%2F%2Fopenai.com%2F&r=&lt=350&evt=pageLoad&sv=2&cdb=AQAQ&rn=886324",
+      "alt": "",
+      "width": 0,
+      "height": 0,
+      "loading": "auto"
+    }
+  ],
+  "videos": [
+    {
+      "src": "https://cdn.openai.com/ctf-cdn/gpt-5-6/OAI_ChatGPT_Blog_1920x1920_compressed.mp4",
+      "poster": null,
+      "autoplay": true,
+      "loop": true,
+      "muted": true
+    }
+  ],
+  "bgImages": [],
+  "buttons": [
+    {
+      "text": "Skip to main content",
+      "href": "https://openai.com/#main",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0.04)",
+        "borderRadius": "40px",
+        "padding": "8px 16px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Research",
+      "href": "https://openai.com/research/index/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Products",
+      "href": null,
+      "tag": "button",
+      "styles": {
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Business",
+      "href": "https://openai.com/business/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Developers",
+      "href": "https://openai.com/api/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Company",
+      "href": "https://openai.com/about/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Foundation(opens in a new window)",
+      "href": "https://openaifoundation.org/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Log in",
+      "href": null,
+      "tag": "button",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0.04)",
+        "borderRadius": "40px",
+        "padding": "0px 20px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Try ChatGPT(opens in a new window)",
+      "href": "https://chatgpt.com/?openaicom-did=9b0c19e8-8139-47d8-933e-23685042eb67&openaicom_referred=true",
+      "tag": "a",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "borderRadius": "40px",
+        "padding": "0px 20px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Research",
+      "href": null,
+      "tag": "button",
+      "styles": {
+        "fontSize": "32.2254px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Products",
+      "href": null,
+      "tag": "button",
+      "styles": {
+        "fontSize": "32.2254px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Business",
+      "href": null,
+      "tag": "button",
+      "styles": {
+        "fontSize": "32.2254px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Developers",
+      "href": null,
+      "tag": "button",
+      "styles": {
+        "fontSize": "32.2254px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Company",
+      "href": null,
+      "tag": "button",
+      "styles": {
+        "fontSize": "32.2254px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Foundation\n(opens in a new window)",
+      "href": "https://openaifoundation.org/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "32.2254px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Try ChatGPT\n(opens in a new window)",
+      "href": "https://chatgpt.com/?openaicom-did=9b0c19e8-8139-47d8-933e-23685042eb67&openaicom_referred=true",
+      "tag": "a",
+      "styles": {
+        "fontSize": "32.2254px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Login",
+      "href": null,
+      "tag": "button",
+      "styles": {
+        "fontSize": "32.2254px",
+        "fontWeight": "500",
+        "color": "rgba(0, 0, 0, 0.6)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Talk with ChatGPT",
+      "href": "https://chatgpt.com/?mode=voice&openaicom-did=9b0c19e8-8139-47d8-933e-23685042eb67&openaicom_referred=true",
+      "tag": "a",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "9999px",
+        "padding": "0px 12px",
+        "border": "1px solid rgba(0, 0, 0, 0.12)"
+      }
+    },
+    {
+      "text": "Research",
+      "href": "https://openai.com/research/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "9999px",
+        "padding": "0px 12px",
+        "border": "1px solid rgba(0, 0, 0, 0.12)"
+      }
+    },
+    {
+      "text": "API Platform",
+      "href": "https://openai.com/api/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "9999px",
+        "padding": "0px 12px",
+        "border": "1px solid rgba(0, 0, 0, 0.12)"
+      }
+    },
+    {
+      "text": "Stories",
+      "href": "https://openai.com/stories/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "9999px",
+        "padding": "0px 12px",
+        "border": "1px solid rgba(0, 0, 0, 0.12)"
+      }
+    },
+    {
+      "text": "More",
+      "href": null,
+      "tag": "button",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "color": "rgba(0, 0, 0, 0.6)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "9999px",
+        "padding": "0px 12px",
+        "border": "1px solid rgba(0, 0, 0, 0.12)"
+      }
+    },
+    {
+      "text": "Take on your most ambitious work with ChatGPT\n\n5 min read",
+      "href": "https://openai.com/chatgpt-work/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "16px 0px 0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Introducing GPT-Live\n\nProduct\n7 min read",
+      "href": "https://openai.com/index/introducing-gpt-live/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "16px 0px 0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "View more",
+      "href": "https://openai.com/news/company-announcements/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "How agents are transforming work\n\nCompany\nJun 25, 2026",
+      "href": "https://openai.com/index/how-agents-are-transforming-work/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px 0px 0px 20px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Built to benefit everyone: our plan\n\nCompany\nJun 8, 2026",
+      "href": "https://openai.com/index/built-to-benefit-everyone-our-plan/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px 0px 0px 20px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "View all",
+      "href": "https://openai.com/stories/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Chip Ganassi Racing × OpenAI\n\nAPI\nMay 28, 2026",
+      "href": "https://openai.com/index/chip-ganassi-racing/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "16px 0px 0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "View all",
+      "href": "https://openai.com/research/index/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "View all",
+      "href": "https://openai.com/business/customer-stories/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Download",
+      "href": "https://openai.com/chatgpt/download/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0.04)",
+        "borderRadius": "40px",
+        "padding": "0px 20px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Research Index",
+      "href": "https://openai.com/research/index/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Research Overview",
+      "href": "https://openai.com/research/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Economic Research",
+      "href": "https://openai.com/signals/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "GPT-5.6",
+      "href": "https://openai.com/index/gpt-5-6/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "GPT-5.5",
+      "href": "https://openai.com/index/introducing-gpt-5-5/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "GPT-5.4",
+      "href": "https://openai.com/index/introducing-gpt-5-4/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Safety Approach",
+      "href": "https://openai.com/safety/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Deployment Safety\n(opens in a new window)",
+      "href": "https://deploymentsafety.openai.com/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Security & Privacy",
+      "href": "https://openai.com/security-and-privacy/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Trust & Transparency",
+      "href": "https://openai.com/trust-and-transparency/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "ChatGPT\n(opens in a new window)",
+      "href": "https://chatgpt.com/?openaicom-did=9b0c19e8-8139-47d8-933e-23685042eb67&openaicom_referred=true",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "ChatGPT Business\n(opens in a new window)",
+      "href": "https://chatgpt.com/business/?openaicom-did=9b0c19e8-8139-47d8-933e-23685042eb67&openaicom_referred=true",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "ChatGPT Enterprise\n(opens in a new window)",
+      "href": "https://chatgpt.com/business/enterprise/?openaicom-did=9b0c19e8-8139-47d8-933e-23685042eb67&openaicom_referred=true",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "ChatGPT for Education\n(opens in a new window)",
+      "href": "https://chatgpt.com/business/education/?openaicom-did=9b0c19e8-8139-47d8-933e-23685042eb67&openaicom_referred=true",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Codex",
+      "href": "https://openai.com/codex/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Release Notes",
+      "href": "https://openai.com/products/release-notes/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Overview",
+      "href": "https://openai.com/api/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "API Log In\n(opens in a new window)",
+      "href": "https://platform.openai.com/login",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Docs\n(opens in a new window)",
+      "href": "https://developers.openai.com/api/docs",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Overview",
+      "href": "https://openai.com/business/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Solutions",
+      "href": "https://openai.com/solutions/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Resources",
+      "href": "https://openai.com/business/learn/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Customer Stories",
+      "href": "https://openai.com/business/customer-stories/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Partner Network",
+      "href": "https://openai.com/business/partners/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Contact Sales",
+      "href": "https://openai.com/contact-sales/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Apps SDK\n(opens in a new window)",
+      "href": "https://developers.openai.com/apps-sdk",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Open Models",
+      "href": "https://openai.com/open-models/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Docs\n(opens in a new window)",
+      "href": "https://developers.openai.com/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Resources\n(opens in a new window)",
+      "href": "https://developers.openai.com/learn",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Developer Forum\n(opens in a new window)",
+      "href": "https://community.openai.com/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "About Us",
+      "href": "https://openai.com/about/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Our Charter",
+      "href": "https://openai.com/charter/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Careers",
+      "href": "https://openai.com/careers/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "News",
+      "href": "https://openai.com/news/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Help Center\n(opens in a new window)",
+      "href": "https://help.openai.com/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Stories",
+      "href": "https://openai.com/stories/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Academy",
+      "href": "https://openai.com/academy/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Supply Co.",
+      "href": "https://openai.com/supply/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Livestreams",
+      "href": "https://openai.com/live/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Podcast",
+      "href": "https://openai.com/podcast/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "RSS",
+      "href": "https://openai.com/news/rss.xml",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Terms of Use",
+      "href": "https://openai.com/policies/terms-of-use/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Privacy Policy",
+      "href": "https://openai.com/policies/privacy-policy/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "Other Policies",
+      "href": "https://openai.com/policies/",
+      "tag": "a",
+      "styles": {
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "(opens in a new window)",
+      "href": "https://x.com/OpenAI",
+      "tag": "a",
+      "styles": {
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "(opens in a new window)",
+      "href": "https://www.youtube.com/OpenAI",
+      "tag": "a",
+      "styles": {
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "(opens in a new window)",
+      "href": "https://www.linkedin.com/company/openai",
+      "tag": "a",
+      "styles": {
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    },
+    {
+      "text": "(opens in a new window)",
+      "href": "https://github.com/openai",
+      "tag": "a",
+      "styles": {
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "border": "0px solid rgb(229, 231, 235)"
+      }
+    }
+  ],
+  "sticky": [
+    {
+      "tag": "DIV",
+      "classes": "group/header-bar h-header-h inset-x-0 top-0 flex items-start transition-[background-color] motion-reduce:transition-none",
+      "position": "fixed",
+      "top": "0px",
+      "zIndex": "51",
+      "text": "Skip to main content\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(o"
+    },
+    {
+      "tag": "DIV",
+      "classes": "fixed inset-s-0 top-0 size-0 rtl:start-auto rtl:inset-e-0",
+      "position": "fixed",
+      "top": "0px",
+      "zIndex": "auto",
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "classes": "top-header-h bg-secondary-100 no-scrollbar duration-short ease-curve-out-cubic fixed inset-x-0 bottom-0 overscroll-none ",
+      "position": "fixed",
+      "top": "54px",
+      "zIndex": "auto",
+      "text": "Research\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)"
+    },
+    {
+      "tag": "DIV",
+      "classes": "top-header-h bg-primary-12 duration-short ease-curve-out-cubic nav-desktop:block nav-desktop:backdrop-blur-lg fixed inse",
+      "position": "fixed",
+      "top": "54px",
+      "zIndex": "50",
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "classes": "bg-secondary-100 top-header-h duration-short ease-curve-out-cubic nav-desktop:block fixed inset-x-0 hidden overflow-hidd",
+      "position": "fixed",
+      "top": "54px",
+      "zIndex": "51",
+      "text": ""
+    },
+    {
+      "tag": "DIALOG",
+      "classes": "ease-out-cubic fixed inset-s-0 top-0 z-103 m-0 h-screen max-h-full w-screen max-w-full overflow-auto overscroll-none bg-",
+      "position": "fixed",
+      "top": "0px",
+      "zIndex": "103",
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "classes": "bg-secondary-60 ease-out-cubic pointer-events-none fixed inset-0 z-0 opacity-0 backdrop-blur-[50px] backdrop-saturate-[2",
+      "position": "fixed",
+      "top": "0px",
+      "zIndex": "0",
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "classes": "sticky top-0 z-10 flex w-full justify-end p-6",
+      "position": "sticky",
+      "top": "0px",
+      "zIndex": "10",
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "classes": "ease-curve-a fixed inset-e-0 bottom-0 overflow-hidden md:absolute pointer-events-none opacity-0 bg-secondary-100 w-full ",
+      "position": "fixed",
+      "top": "772px",
+      "zIndex": "57",
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "classes": "duration-sidebar ease-curve-sidebar inset-s-0 transition-[background-color,backdrop-filter,inset-inline-start] pointer-e",
+      "position": "fixed",
+      "top": "0px",
+      "zIndex": "56",
+      "text": ""
+    }
+  ],
+  "lenis": false,
+  "htmlClasses": "",
+  "bodyClasses": "text-primary-100 text-p1 bg-background",
+  "scrollHeight": 8566,
+  "viewport": {
+    "w": 390,
+    "h": 844
+  },
+  "headerTop": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backdropFilter": "none",
+    "boxShadow": "none",
+    "height": "0px",
+    "position": "static",
+    "borderBottom": "0px solid rgb(229, 231, 235)"
+  },
+  "headerScrolled": {
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backdropFilter": "none",
+    "boxShadow": "none",
+    "height": "0px",
+    "position": "static",
+    "borderBottom": "0px solid rgb(229, 231, 235)"
+  },
+  "moreAssets": {
+    "images": [
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/5uOBQ9CN3HA6yzWugjzzYZ/b5fe018bce4814a145bb9c8e57422db6/gpt-5-6-poster.png?w=3840&q=90&fm=webp",
+        "alt": "\"\"",
+        "width": 1316,
+        "height": 1645
+      },
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/5uOBQ9CN3HA6yzWugjzzYZ/b5fe018bce4814a145bb9c8e57422db6/gpt-5-6-poster.png?w=3840&q=90&fm=webp",
+        "alt": "\"\"",
+        "width": 1316,
+        "height": 1645
+      },
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/2P4v0ivRnOu6z9sJqDrJj5/d28b76a7ed3a8a53261f8eba4c021740/Superapp_Blog_Art_Card_-_Motion.png?w=3840&q=90&fm=webp",
+        "alt": "ChatGPT Work menu in a browser window against a starry background, with Work selected and Codex, Scheduled, and Sites options shown.",
+        "width": 390,
+        "height": 390
+      },
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/4vJ1lSvYeKz0zM4RVCKwIC/855f7e54052d8a7635e4bf45adf41737/Art_Card_1_1.png?w=3840&q=90&fm=webp",
+        "alt": "Art Card 1 1",
+        "width": 390,
+        "height": 390
+      },
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/735NOZviyogUBIFxd2EmWX/fa8baf9fc26e64f442ffa86d5fd9a41e/Art_Card__6_.png?w=3840&q=90&fm=webp",
+        "alt": "Expanding Daybreak Art Card",
+        "width": 390,
+        "height": 390
+      },
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/7hmtkjKv0DxS4Yt8mQZju2/c168bfa2010da64bcc9dd60d6b5491e8/Art_Card__1_.png?w=3840&q=90&fm=webp",
+        "alt": "How agents are transforming work > Cover image",
+        "width": 390,
+        "height": 390
+      },
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/36doI12YCwUtp1hzD4d8bj/84e67c565f39e7d5ca3ee011efa69756/confidential-submission-of-draft-s-1-to-the-sec-1x1.png?w=3840&q=90&fm=webp",
+        "alt": "Confidential submission of draft S-1 to the SEC > cover image",
+        "width": 390,
+        "height": 390
+      },
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/bEe28mW3dEOj9pKJsPp2u/13f7bed9e86b0667ba924479d62f98e4/Art_Card_1080x1080_1.png?w=3840&q=90&fm=webp",
+        "alt": "Built for broad benefit > cover",
+        "width": 390,
+        "height": 390
+      },
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/26wgJNYWk0soRoyZvBmYmo/dc80fc33c0a60bd566816f2323f31dc2/Art_card__4_.png?w=3840&q=90&fm=webp",
+        "alt": "Art card (4)",
+        "width": 390,
+        "height": 390
+      },
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/4zSr4YNWXIEYz20piN2bxf/6f9a561be6055802914aee0a3bb671d7/ArtCard-Personal-Finance.png?w=3840&q=90&fm=webp",
+        "alt": "Personal finance in ChatGPT > Media > Cover",
+        "width": 390,
+        "height": 390
+      },
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/7x4viZ0DsQtxQpAgnYYheQ/8dfe028356aceac9e83da6cb837d6864/Saftey-Art-Card-1080x1080.png?w=3840&q=90&fm=webp",
+        "alt": "A soft, abstract gradient dominated by pink and blue hues, with gentle vertical blending and a warm orange-yellow glow",
+        "width": 390,
+        "height": 390
+      },
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/2tgWg3FVo92ztow3wQjynu/6803dbad048ec780c8f0c7c46347ebe9/OpenAI_Falcon_1x1.jpg?w=3840&q=90&fm=webp",
+        "alt": "A cyclist pushes a fat-tire bike across a wide snowy landscape.",
+        "width": 390,
+        "height": 390
+      },
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/5Owa7Jyi5pMx1lDrvN1B2C/3036661e68edf2e77d2d5d2454653740/2026_04_Gardi_ProjectOwl_KittPeak_Day1_02144.jpg?w=3840&q=90&fm=webp",
+        "alt": "CK Chan stands inside a large radio telescope dish.",
+        "width": 390,
+        "height": 260
+      },
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/2sMgyKsbMrlLNgBeM8SYAh/83460e94830cfb5865cddb57e6fe837f/OpenAI_Ganassi_1x1.jpg?w=3840&q=90&fm=webp",
+        "alt": "OpenAI Ganassi 1x1",
+        "width": 390,
+        "height": 390
+      },
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/6PqehRMmS1oVuin6e3VWYq/b96f1c7b5a2ac2c08a887591b8486ed3/ArtCard-Polynomial-Construction.png?w=3840&q=90&fm=webp",
+        "alt": "Geometry > ArtCard > Polynomial Construction",
+        "width": 390,
+        "height": 390
+      },
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/6DOv5mMIaI2sbsgdDbeiiY/d2d071aac3555468336b870cfeb9736e/OAI_GPT-Rosaling_Art_Card_1x1.png?w=3840&q=90&fm=webp",
+        "alt": "OAI GPT-Rosaling Art Card 1x1",
+        "width": 390,
+        "height": 390
+      },
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/5GCZHArpg3FLRTissb13aX/50b2716c198dbbc4cf241b05faeee97c/OAI_Monitoring_internal_deployments_for_loss_of_control_risks_Art_Card_1x1.png?w=3840&q=90&fm=webp",
+        "alt": "OAI Monitoring internal deployments for loss of control risks Art Card 1x1",
+        "width": 390,
+        "height": 390
+      },
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/2A9IYNIXnFR7s8lAQ9BKby/c98bd4af069478f3317f7d2d6aa98cc2/oai_Choco_1x1.png?w=3840&q=90&fm=webp",
+        "alt": "oai Choco 1x1",
+        "width": 390,
+        "height": 390
+      },
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/4QsBeXNSb2qFXZHe4SQ1hb/6cf266e7e4e2482688290cbc159b762c/oai_CyberAgent_1x1.png?w=3840&q=90&fm=webp",
+        "alt": "oai CyberAgent 1x1",
+        "width": 390,
+        "height": 390
+      },
+      {
+        "src": "https://images.ctfassets.net/kftzwdyauwt9/5KZQBYyY2LBtllikqf9aul/6143158d9c259eed5aafb47cdac9bcdd/oai_GradientLabs_1x1.png?w=3840&q=90&fm=webp",
+        "alt": "oai GradientLabs 1x1",
+        "width": 390,
+        "height": 390
+      },
+      {
+        "src": "https://bat.bing.com/action/0?ti=187204252&Ver=2&mid=2c1d5150-2da8-48c4-9c78-e6af6ce625d7&bo=1&sid=e36ae48080ce11f1929e81e68f82a48d&vid=e36ad48080ce11f1ae3c613f7efb8a08&vids=1&msclkid=N&pi=0&lg=en-US&sw=390&sh=844&sc=24&tl=OpenAI%20%7C%20Research%20%26%20Deployment&p=https%3A%2F%2Fopenai.com%2F&r=&lt=350&evt=pageLoad&sv=2&cdb=AQAQ&rn=886324",
+        "alt": "",
+        "width": 0,
+        "height": 0
+      }
+    ],
+    "videos": [
+      {
+        "src": "https://cdn.openai.com/ctf-cdn/gpt-5-6/OAI_ChatGPT_Blog_1920x1920_compressed.mp4",
+        "poster": null
+      }
+    ],
+    "sources": [
+      {
+        "src": "",
+        "type": ""
+      },
+      {
+        "src": "",
+        "type": ""
+      },
+      {
+        "src": "",
+        "type": ""
+      },
+      {
+        "src": "",
+        "type": ""
+      },
+      {
+        "src": "https://cdn.openai.com/ctf-cdn/gpt-5-6/OAI_ChatGPT_Blog_1920x1920_compressed.mp4",
+        "type": "video/mp4"
+      }
+    ]
+  }
+}
