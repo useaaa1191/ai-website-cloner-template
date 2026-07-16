@@ -1,20 +1,23 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-  title: "Website Clone",
-  description: "Pixel-perfect website clone",
+  title: "OpenAI | Research & Deployment",
+  description:
+    "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission.",
+  icons: {
+    icon: [
+      { url: "/seo/favicon.ico", sizes: "48x48" },
+      { url: "/seo/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: [{ url: "/seo/apple-icon.png", sizes: "180x180" }],
+  },
+  openGraph: {
+    title: "OpenAI | Research & Deployment",
+    description:
+      "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission.",
+    images: ["/seo/og.png"],
+  },
 };
 
 export default function RootLayout({
@@ -23,11 +26,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en" className="h-full">
+      <body className="flex min-h-full flex-col">{children}</body>
     </html>
   );
 }

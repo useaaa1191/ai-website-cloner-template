@@ -1,0 +1,361 @@
+{
+  "hero": {
+    "title": "What can I help with?",
+    "titleStyles": {
+      "fontSize": "28px",
+      "fontWeight": "600",
+      "lineHeight": "34px",
+      "letterSpacing": "0.3px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "borderRadius": "0px",
+      "border": "0px solid rgb(229, 231, 235)",
+      "maxWidth": "none",
+      "width": "282.312px",
+      "height": "34px",
+      "gap": "normal",
+      "display": "block",
+      "gridTemplateColumns": "none"
+    },
+    "chips": [
+      {
+        "text": "Talk with ChatGPT",
+        "href": "https://chatgpt.com/?mode=voice&openaicom-did=8fab46d1-f8e8-4604-b4fd-1b31d37a2e70&openaicom_referred=true",
+        "analytics": null
+      },
+      {
+        "text": "Research",
+        "href": "https://openai.com/research/",
+        "analytics": null
+      },
+      {
+        "text": "API Platform",
+        "href": "https://openai.com/api/",
+        "analytics": null
+      },
+      {
+        "text": "Stories",
+        "href": "https://openai.com/stories/",
+        "analytics": null
+      },
+      {
+        "text": "More",
+        "href": null,
+        "analytics": "home-splash-show-more"
+      }
+    ],
+    "inputPlaceholder": "Message ChatGPT",
+    "textAll": "What can I help with?\nMessage ChatGPT\nQuiz me on vocabulary\nPlan a surf trip to Costa Rica in August\nIndia stock market today\nExplica por qué el maíz palomitas explota\nTeach me Mahjong for beginners\nFind hiking boots for wide feet\nExplain this code\nWas mach ich in Berlin wenn es regnet?\nWhat are some outdoor markets in Mexico City?\nRédigez une note de remerciement\nRecommend an easy potluck dish\nハーフマラソンのトレーニングを手伝ってください\nHelp me improve this job description\nWrite a Python script\nDraw a picture of a mini aussie as a diver\nTravel pillow that actually works\nTranslate this recipe into Greek\nRank dog breeds for a small apartment\n楽しいディナーパーティーの計画を手伝ってください\nExplain paradiddles for me\nQuais são as chances de Portugal na Euro 2024?\nCompare business strategies for transitioning from budget to luxury\nTeach me to negotiate\nSugiere actividades divertidas para una familia que visita San Francisco\nPlan an itinerary for teens in Hong Kong\nShow me the F1 racing schedule\nDesign a database schema\nJapan yen exchange rate\nHelp me build a budget\nKritisiere meine Kurzgeschichte\nFind gentle lower back stretches\nNew restaurant openings in NYC\nHelp me pick a halloween costume\nWrite a polite rejection email\nGenerate fantasy football team names\nElabore um calendário de conteúdo para redes sociais\nExplique a turbulência em aviões\nBrainstorm domain names\nGlobal breaking news today\n面接の質問を一緒に考えてください\nSummarize my meeting notes\nExplique a turbulência em aviões\nPlan a college tour\nWrite a SQL Query\nHelp me with gif",
+    "containerStyles": {
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "lineHeight": "27.999px",
+      "letterSpacing": "-0.17px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px 32px",
+      "borderRadius": "0px",
+      "border": "0px solid rgb(229, 231, 235)",
+      "maxWidth": "1440px",
+      "width": "1440px",
+      "height": "568px",
+      "gap": "normal",
+      "display": "block",
+      "gridTemplateColumns": "none"
+    }
+  },
+  "featured": {
+    "cards": [
+      {
+        "href": "https://openai.com/index/gpt-5-6/",
+        "title": "GPT-5.6: Frontier intelligence that scales with your ambitionProduct18 min read",
+        "meta": [],
+        "lines": [
+          "GPT-5.6: Frontier intelligence that scales with your ambitionProduct18 min read"
+        ],
+        "img": null,
+        "video": null
+      },
+      {
+        "href": "https://openai.com/index/gpt-5-6/",
+        "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+        "meta": [
+          "Product",
+          "18 min read"
+        ],
+        "lines": [
+          "GPT-5.6: Frontier intelligence that scales with your ambition",
+          "Product",
+          "18 min read"
+        ],
+        "img": null,
+        "video": null
+      },
+      {
+        "href": "https://openai.com/chatgpt-work/",
+        "title": "Take on your most ambitious work with ChatGPT",
+        "meta": [
+          "5 min read"
+        ],
+        "lines": [
+          "Take on your most ambitious work with ChatGPT",
+          "5 min read"
+        ],
+        "img": null,
+        "video": null
+      },
+      {
+        "href": "https://openai.com/index/introducing-gpt-live/",
+        "title": "Introducing GPT-Live",
+        "meta": [
+          "Product",
+          "7 min read"
+        ],
+        "lines": [
+          "Introducing GPT-Live",
+          "Product",
+          "7 min read"
+        ],
+        "img": null,
+        "video": null
+      },
+      {
+        "href": "https://openai.com/index/daybreak-securing-the-world/",
+        "title": "Daybreak: Tools for securing every organization in the world",
+        "meta": [
+          "Security",
+          "8 min read"
+        ],
+        "lines": [
+          "Daybreak: Tools for securing every organization in the world",
+          "Security",
+          "8 min read"
+        ],
+        "img": null,
+        "video": null
+      }
+    ],
+    "gridStyles": {
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "lineHeight": "27.999px",
+      "letterSpacing": "-0.17px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px 32px",
+      "borderRadius": "0px",
+      "border": "0px solid rgb(229, 231, 235)",
+      "maxWidth": "1440px",
+      "width": "1440px",
+      "height": "1443.45px",
+      "gap": "24px",
+      "display": "grid",
+      "gridTemplateColumns": "326px 326px 326px 326px"
+    },
+    "textAll": "GPT-5.6: Frontier intelligence that scales with your ambition\n\nProduct\n18 min read\n\nTake on your most ambitious work with ChatGPT\n\n5 min read\n\nIntroducing GPT-Live\n\nProduct\n7 min read\n\nDaybreak: Tools for securing every organization in the world\n\nSecurity\n8 min read"
+  },
+  "news": {
+    "heading": "Recent news",
+    "viewMore": {
+      "text": "View more",
+      "href": "https://openai.com/news/company-announcements/"
+    },
+    "cards": [],
+    "textAll": "Recent news\nView more\nHow agents are transforming work\n\nCompany\nJun 25, 2026\n\nConfidential submission of draft S-1 to the SEC\n\nCompany\nJun 8, 2026\n\nBuilt to benefit everyone: our plan\n\nCompany\nJun 8, 2026\n\nAdvancing content provenance for a safer, more transparent AI ecosystem\n\nSafety\nMay 19, 2026\n\nA new personal finance experience in ChatGPT\n\nProduct\nMay 15, 2026\n\nHelping ChatGPT better recognize context in sensitive conversations\n\nSafety\nMay 14, 2026"
+  },
+  "stories": {
+    "heading": "Stories",
+    "viewMore": {
+      "text": "View all",
+      "href": "https://openai.com/stories/"
+    },
+    "cards": [],
+    "textAll": "Stories\nView all\nTraining to cycle across Antarctica with ChatGPT\n\nJun 11, 2026\n\nCreating new simulations of black holes with Codex\n\nJun 11, 2026\n\nChip Ganassi Racing × OpenAI\n\nAPI\nMay 28, 2026"
+  },
+  "research": {
+    "heading": "Latest research",
+    "viewMore": {
+      "text": "View all",
+      "href": "https://openai.com/research/index/"
+    },
+    "cards": [],
+    "textAll": "Latest research\nView all\nAn OpenAI model has disproved a central conjecture in discrete geometry\n\nResearch\nMay 20, 2026\n\nIntroducing GPT-Rosalind for life sciences research\n\nResearch\nApr 16, 2026\n\nHow we monitor internal coding agents for misalignment\n\nSafety\nMar 19, 2026"
+  },
+  "business": {
+    "heading": "OpenAI for business",
+    "viewMore": {
+      "text": "View all",
+      "href": "https://openai.com/business/customer-stories/"
+    },
+    "cards": [],
+    "textAll": "OpenAI for business\nView all\nChoco automates food distribution with AI agents\n\nApr 27, 2026\n\nCyberAgent moves faster with ChatGPT Enterprise and Codex\n\nApr 9, 2026\n\nGradient Labs gives every bank customer an AI account manager\n\nStartup\nApr 1, 2026"
+  },
+  "cta": {
+    "heading": "Get started with ChatGPT",
+    "button": {
+      "text": "Download",
+      "href": "https://openai.com/chatgpt/download/"
+    },
+    "textAll": "Get started with ChatGPT\nDownload"
+  },
+  "header": {
+    "topNav": [
+      {
+        "text": "Research",
+        "href": "https://openai.com/research/index/",
+        "tag": "a"
+      },
+      {
+        "text": "Products",
+        "href": null,
+        "tag": "button"
+      },
+      {
+        "text": "Business",
+        "href": "https://openai.com/business/",
+        "tag": "a"
+      },
+      {
+        "text": "Developers",
+        "href": "https://openai.com/api/",
+        "tag": "a"
+      },
+      {
+        "text": "Company",
+        "href": "https://openai.com/about/",
+        "tag": "a"
+      },
+      {
+        "text": "Foundation (opens in a new window)",
+        "href": "https://openaifoundation.org/",
+        "tag": "a"
+      },
+      {
+        "text": "Log in",
+        "href": null,
+        "tag": "button"
+      },
+      {
+        "text": "Try ChatGPT (opens in a new window)",
+        "href": "https://chatgpt.com/?openaicom-did=8fab46d1-f8e8-4604-b4fd-1b31d37a2e70&openaicom_referred=true",
+        "tag": "a"
+      },
+      {
+        "text": "Research",
+        "href": null,
+        "tag": "button"
+      },
+      {
+        "text": "Products",
+        "href": null,
+        "tag": "button"
+      },
+      {
+        "text": "Business",
+        "href": null,
+        "tag": "button"
+      },
+      {
+        "text": "Developers",
+        "href": null,
+        "tag": "button"
+      },
+      {
+        "text": "Company",
+        "href": null,
+        "tag": "button"
+      },
+      {
+        "text": "Foundation(opens in a new window)",
+        "href": "https://openaifoundation.org/",
+        "tag": "a"
+      }
+    ],
+    "navLinks": [
+      {
+        "text": "Research",
+        "href": "https://openai.com/research/index/"
+      },
+      {
+        "text": "Business",
+        "href": "https://openai.com/business/"
+      },
+      {
+        "text": "Developers",
+        "href": "https://openai.com/api/"
+      },
+      {
+        "text": "Company",
+        "href": "https://openai.com/about/"
+      },
+      {
+        "text": "Foundation (opens in a new window)",
+        "href": "https://openaifoundation.org/"
+      },
+      {
+        "text": "Try ChatGPT (opens in a new window)",
+        "href": "https://chatgpt.com/?openaicom-did=8fab46d1-f8e8-4604-b4fd-1b31d37a2e70&openaicom_referred=true"
+      },
+      {
+        "text": "Foundation(opens in a new window)",
+        "href": "https://openaifoundation.org/"
+      }
+    ],
+    "styles": {
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "lineHeight": "27.999px",
+      "letterSpacing": "-0.17px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "borderRadius": "0px",
+      "border": "0px solid rgb(229, 231, 235)",
+      "maxWidth": "none",
+      "width": "1440px",
+      "height": "0px",
+      "gap": "normal",
+      "display": "block",
+      "gridTemplateColumns": "none"
+    }
+  },
+  "footer": {
+    "cols": [],
+    "textAll": "Research\nResearch Index\nResearch Overview\nEconomic Research\nLatest Advancements\nGPT-5.6\nGPT-5.5\nGPT-5.4\nSafety\nSafety Approach\nDeployment Safety\n(opens in a new window)\nSecurity & Privacy\nTrust & Transparency\nProducts\nChatGPT\n(opens in a new window)\nChatGPT Business\n(opens in a new window)\nChatGPT Enterprise\n(opens in a new window)\nChatGPT for Education\n(opens in a new window)\nCodex\nRelease Notes\nAPI Platform\nOverview\nAPI Log In\n(opens in a new window)\nDocs\n(opens in a new window)\nBusiness\nOverview\nSolutions\nResources\nCustomer Stories\nPartner Network\nContact Sales\nDevelopers\nApps SDK\n(opens in a new window)\nOpen Models\nDocs\n(opens in a new window)\nResources\n(opens in a new window)\nDeveloper Forum\n(opens in a new window)\nCompany\nAbout Us\nOur Charter\nCareers\nNews\nSupport\nHelp Center\n(opens in a new window)\nMore\nStories\nAcademy\nSupply Co.\nLivestreams\nPodcast\nRSS\nTerms & Policies\nTerms of Use\nPrivacy Policy\nOther Policies\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\nOpenAI © 2015–2026\nYour privacy choices\nEnglish\nUnited States",
+    "styles": {
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "lineHeight": "27.999px",
+      "letterSpacing": "-0.17px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "borderRadius": "0px",
+      "border": "0px solid rgb(229, 231, 235)",
+      "maxWidth": "none",
+      "width": "1440px",
+      "height": "651.938px",
+      "gap": "normal",
+      "display": "block",
+      "gridTemplateColumns": "none"
+    }
+  },
+  "maxWidthContainer": {
+    "fontSize": "17px",
+    "fontWeight": "400",
+    "lineHeight": "27.999px",
+    "letterSpacing": "-0.17px",
+    "color": "rgb(0, 0, 0)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "padding": "0px 32px",
+    "borderRadius": "0px",
+    "border": "0px solid rgb(229, 231, 235)",
+    "maxWidth": "1440px",
+    "width": "1440px",
+    "height": "64px",
+    "gap": "16px",
+    "display": "flex",
+    "gridTemplateColumns": "none"
+  }
+}

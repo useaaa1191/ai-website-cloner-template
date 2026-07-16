@@ -1,0 +1,576 @@
+{
+  "meta": {
+    "title": "OpenAI | Research & Deployment",
+    "description": "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission."
+  },
+  "nav": [
+    {
+      "label": "Research",
+      "href": "https://openai.com/research/index/"
+    },
+    {
+      "label": "Products",
+      "href": "#products"
+    },
+    {
+      "label": "Business",
+      "href": "https://openai.com/business/"
+    },
+    {
+      "label": "Developers",
+      "href": "https://openai.com/api/"
+    },
+    {
+      "label": "Company",
+      "href": "https://openai.com/about/"
+    },
+    {
+      "label": "Foundation",
+      "href": "https://openaifoundation.org/",
+      "external": true
+    }
+  ],
+  "hero": {
+    "title": "What can I help with?",
+    "placeholder": "Message ChatGPT",
+    "rotatingPrompts": [
+      "Quiz me on vocabulary",
+      "Plan a surf trip to Costa Rica in August",
+      "India stock market today",
+      "Explica por qu\u00e9 el ma\u00edz palomitas explota",
+      "Teach me Mahjong for beginners",
+      "Find hiking boots for wide feet",
+      "Explain this code",
+      "Was mach ich in Berlin wenn es regnet?",
+      "What are some outdoor markets in Mexico City?",
+      "R\u00e9digez une note de remerciement",
+      "Recommend an easy potluck dish",
+      "Write a Python script"
+    ],
+    "chips": [
+      {
+        "label": "Learn about ChatGPT Business",
+        "href": "https://openai.com/business/"
+      },
+      {
+        "label": "Talk with ChatGPT",
+        "href": "https://chatgpt.com/?mode=voice",
+        "external": true
+      },
+      {
+        "label": "Research",
+        "href": "https://openai.com/research/"
+      },
+      {
+        "label": "API Platform",
+        "href": "https://openai.com/api/"
+      },
+      {
+        "label": "Stories",
+        "href": "https://openai.com/stories/"
+      }
+    ],
+    "moreChip": {
+      "label": "Search with ChatGPT",
+      "href": "https://chatgpt.com/?hints=search",
+      "external": true
+    }
+  },
+  "featured": [
+    {
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "href": "https://openai.com/index/gpt-5-6/",
+      "category": "Product",
+      "readTime": "18 min read",
+      "image": "/images/oai-b38c7be20da1.png",
+      "imageAlt": "\"\"",
+      "video": "/videos/oai-8ce491a724bc.mp4",
+      "variant": "primary"
+    },
+    {
+      "title": "Take on your most ambitious work with ChatGPT",
+      "href": "https://openai.com/chatgpt-work/",
+      "category": null,
+      "readTime": "5 min read",
+      "image": "/images/oai-cc49fcbd0427.png",
+      "imageAlt": "ChatGPT Work menu in a browser window against a starry background, with Work selected and Codex, Scheduled, and Sites options shown.",
+      "video": "/videos/oai-0e92c02611d6.mp4",
+      "variant": "side"
+    },
+    {
+      "title": "Introducing GPT-Live",
+      "href": "https://openai.com/index/introducing-gpt-live/",
+      "category": "Product",
+      "readTime": "7 min read",
+      "image": "/images/oai-8b584e01f7d8.png",
+      "imageAlt": "Art Card 1 1",
+      "video": null,
+      "variant": "side"
+    },
+    {
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "href": "https://openai.com/index/daybreak-securing-the-world/",
+      "category": "Security",
+      "readTime": "8 min read",
+      "image": "/images/oai-dae35f6cfe08.png",
+      "imageAlt": "Expanding Daybreak Art Card",
+      "video": null,
+      "variant": "side"
+    }
+  ],
+  "news": {
+    "heading": "Recent news",
+    "viewMore": {
+      "text": "View more",
+      "href": "https://openai.com/news/company-announcements/"
+    },
+    "cards": [
+      {
+        "title": "How agents are transforming work",
+        "href": "https://openai.com/index/how-agents-are-transforming-work/",
+        "category": "Company",
+        "date": "Jun 25, 2026",
+        "readTime": null,
+        "image": "/images/oai-239ddb7f4cbd.png",
+        "imageAlt": "How agents are transforming work > Cover image"
+      },
+      {
+        "title": "Confidential submission of draft S-1 to the SEC",
+        "href": "https://openai.com/index/openai-submits-confidential-s-1/",
+        "category": "Company",
+        "date": "Jun 8, 2026",
+        "readTime": null,
+        "image": "/images/oai-1c8bd36b5461.png",
+        "imageAlt": "Confidential submission of draft S-1 to the SEC > cover image"
+      },
+      {
+        "title": "Built to benefit everyone: our plan",
+        "href": "https://openai.com/index/built-to-benefit-everyone-our-plan/",
+        "category": "Company",
+        "date": "Jun 8, 2026",
+        "readTime": null,
+        "image": "/images/oai-373244b870dd.png",
+        "imageAlt": "Built for broad benefit > cover"
+      },
+      {
+        "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
+        "href": "https://openai.com/index/advancing-content-provenance/",
+        "category": "Safety",
+        "date": "May 19, 2026",
+        "readTime": null,
+        "image": "/images/oai-da2047c8ca20.png",
+        "imageAlt": "Art card (4)"
+      },
+      {
+        "title": "A new personal finance experience in ChatGPT",
+        "href": "https://openai.com/index/personal-finance-chatgpt/",
+        "category": "Product",
+        "date": "May 15, 2026",
+        "readTime": null,
+        "image": "/images/oai-dd26ccf8bc82.png",
+        "imageAlt": "Personal finance in ChatGPT > Media > Cover"
+      },
+      {
+        "title": "Helping ChatGPT better recognize context in sensitive conversations",
+        "href": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations/",
+        "category": "Safety",
+        "date": "May 14, 2026",
+        "readTime": null,
+        "image": "/images/oai-ed1979ec4d87.png",
+        "imageAlt": "A soft, abstract gradient dominated by pink and blue hues, with gentle vertical blending and a warm orange-yellow glow"
+      }
+    ]
+  },
+  "stories": {
+    "heading": "Stories",
+    "viewMore": {
+      "text": "View all",
+      "href": "https://openai.com/stories/"
+    },
+    "cards": [
+      {
+        "title": "Training to cycle across Antarctica with ChatGPT",
+        "href": "https://openai.com/index/cycling-across-antarctica/",
+        "category": null,
+        "date": "Jun 11, 2026",
+        "readTime": null,
+        "image": "/images/oai-27fd686d7072.jpg",
+        "imageAlt": "A cyclist pushes a fat-tire bike across a wide snowy landscape."
+      },
+      {
+        "title": "Creating new simulations of black holes with Codex",
+        "href": "https://openai.com/index/creating-new-simulations-black-holes/",
+        "category": null,
+        "date": "Jun 11, 2026",
+        "readTime": null,
+        "image": "/images/oai-6a3d72550974.jpg",
+        "imageAlt": "CK Chan stands inside a large radio telescope dish."
+      },
+      {
+        "title": "Chip Ganassi Racing \u00d7 OpenAI",
+        "href": "https://openai.com/index/chip-ganassi-racing/",
+        "category": "API",
+        "date": "May 28, 2026",
+        "readTime": null,
+        "image": "/images/oai-76580091e75f.jpg",
+        "imageAlt": "OpenAI Ganassi 1x1"
+      }
+    ]
+  },
+  "research": {
+    "heading": "Latest research",
+    "viewMore": {
+      "text": "View all",
+      "href": "https://openai.com/research/index/"
+    },
+    "cards": [
+      {
+        "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+        "href": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+        "category": "Research",
+        "date": "May 20, 2026",
+        "readTime": null,
+        "image": "/images/oai-2d1900ba17c2.png",
+        "imageAlt": "Geometry > ArtCard > Polynomial Construction"
+      },
+      {
+        "title": "Introducing GPT-Rosalind for life sciences research",
+        "href": "https://openai.com/index/introducing-gpt-rosalind/",
+        "category": "Research",
+        "date": "Apr 16, 2026",
+        "readTime": null,
+        "image": "/images/oai-1c0e9461e35f.png",
+        "imageAlt": "OAI GPT-Rosaling Art Card 1x1"
+      },
+      {
+        "title": "How we monitor internal coding agents for misalignment",
+        "href": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
+        "category": "Safety",
+        "date": "Mar 19, 2026",
+        "readTime": null,
+        "image": "/images/oai-e3fd8bfecba6.png",
+        "imageAlt": "OAI Monitoring internal deployments for loss of control risks Art Card 1x1"
+      }
+    ]
+  },
+  "business": {
+    "heading": "OpenAI for business",
+    "viewMore": {
+      "text": "View all",
+      "href": "https://openai.com/business/customer-stories/"
+    },
+    "cards": [
+      {
+        "title": "Choco automates food distribution with AI agents",
+        "href": "https://openai.com/index/choco/",
+        "category": null,
+        "date": "Apr 27, 2026",
+        "readTime": null,
+        "image": "/images/oai-7d0cb7e6115b.png",
+        "imageAlt": "oai Choco 1x1"
+      },
+      {
+        "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
+        "href": "https://openai.com/index/cyberagent/",
+        "category": null,
+        "date": "Apr 9, 2026",
+        "readTime": null,
+        "image": "/images/oai-7dc96ba400c1.png",
+        "imageAlt": "oai CyberAgent 1x1"
+      },
+      {
+        "title": "Gradient Labs gives every bank customer an AI account manager",
+        "href": "https://openai.com/index/gradient-labs/",
+        "category": "Startup",
+        "date": "Apr 1, 2026",
+        "readTime": null,
+        "image": "/images/oai-c200260e8c0b.png",
+        "imageAlt": "oai GradientLabs 1x1"
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Get started with ChatGPT",
+    "button": {
+      "text": "Download",
+      "href": "https://openai.com/chatgpt/download/"
+    }
+  },
+  "footer": [
+    {
+      "title": "Research",
+      "links": [
+        {
+          "label": "Research Index",
+          "href": "https://openai.com/research/index/",
+          "external": false
+        },
+        {
+          "label": "Research Overview",
+          "href": "https://openai.com/research/",
+          "external": false
+        },
+        {
+          "label": "Economic Research",
+          "href": "https://openai.com/signals/",
+          "external": false
+        }
+      ]
+    },
+    {
+      "title": "Latest Advancements",
+      "links": [
+        {
+          "label": "GPT-5.6",
+          "href": "https://openai.com/index/gpt-5-6/",
+          "external": false
+        },
+        {
+          "label": "GPT-5.5",
+          "href": "https://openai.com/index/introducing-gpt-5-5/",
+          "external": false
+        },
+        {
+          "label": "GPT-5.4",
+          "href": "https://openai.com/index/introducing-gpt-5-4/",
+          "external": false
+        }
+      ]
+    },
+    {
+      "title": "Safety",
+      "links": [
+        {
+          "label": "Safety Approach",
+          "href": "https://openai.com/safety/",
+          "external": false
+        },
+        {
+          "label": "Deployment Safety",
+          "href": "https://deploymentsafety.openai.com/",
+          "external": true
+        },
+        {
+          "label": "Security & Privacy",
+          "href": "https://openai.com/security-and-privacy/",
+          "external": false
+        },
+        {
+          "label": "Trust & Transparency",
+          "href": "https://openai.com/trust-and-transparency/",
+          "external": false
+        }
+      ]
+    },
+    {
+      "title": "Products",
+      "links": [
+        {
+          "label": "ChatGPT",
+          "href": "https://chatgpt.com/?openaicom-did=000ede29-708e-4f22-884a-e692bcf3ac50&openaicom_referred=true",
+          "external": true
+        },
+        {
+          "label": "ChatGPT Business",
+          "href": "https://chatgpt.com/business/?openaicom-did=000ede29-708e-4f22-884a-e692bcf3ac50&openaicom_referred=true",
+          "external": true
+        },
+        {
+          "label": "ChatGPT Enterprise",
+          "href": "https://chatgpt.com/business/enterprise/?openaicom-did=000ede29-708e-4f22-884a-e692bcf3ac50&openaicom_referred=true",
+          "external": true
+        },
+        {
+          "label": "ChatGPT for Education",
+          "href": "https://chatgpt.com/business/education/?openaicom-did=000ede29-708e-4f22-884a-e692bcf3ac50&openaicom_referred=true",
+          "external": true
+        },
+        {
+          "label": "Codex",
+          "href": "https://openai.com/codex/",
+          "external": false
+        },
+        {
+          "label": "Release Notes",
+          "href": "https://openai.com/products/release-notes/",
+          "external": false
+        }
+      ]
+    },
+    {
+      "title": "API Platform",
+      "links": [
+        {
+          "label": "Overview",
+          "href": "https://openai.com/api/",
+          "external": false
+        },
+        {
+          "label": "API Log In",
+          "href": "https://platform.openai.com/login",
+          "external": true
+        },
+        {
+          "label": "Docs",
+          "href": "https://developers.openai.com/api/docs",
+          "external": true
+        }
+      ]
+    },
+    {
+      "title": "Business",
+      "links": [
+        {
+          "label": "Overview",
+          "href": "https://openai.com/business/",
+          "external": false
+        },
+        {
+          "label": "Solutions",
+          "href": "https://openai.com/solutions/",
+          "external": false
+        },
+        {
+          "label": "Resources",
+          "href": "https://openai.com/business/learn/",
+          "external": false
+        },
+        {
+          "label": "Customer Stories",
+          "href": "https://openai.com/business/customer-stories/",
+          "external": false
+        },
+        {
+          "label": "Partner Network",
+          "href": "https://openai.com/business/partners/",
+          "external": false
+        },
+        {
+          "label": "Contact Sales",
+          "href": "https://openai.com/contact-sales/",
+          "external": false
+        }
+      ]
+    },
+    {
+      "title": "Developers",
+      "links": [
+        {
+          "label": "Apps SDK",
+          "href": "https://developers.openai.com/apps-sdk",
+          "external": true
+        },
+        {
+          "label": "Open Models",
+          "href": "https://openai.com/open-models/",
+          "external": false
+        },
+        {
+          "label": "Docs",
+          "href": "https://developers.openai.com/",
+          "external": true
+        },
+        {
+          "label": "Resources",
+          "href": "https://developers.openai.com/learn",
+          "external": true
+        },
+        {
+          "label": "Developer Forum",
+          "href": "https://community.openai.com/",
+          "external": true
+        }
+      ]
+    },
+    {
+      "title": "Company",
+      "links": [
+        {
+          "label": "About Us",
+          "href": "https://openai.com/about/",
+          "external": false
+        },
+        {
+          "label": "Our Charter",
+          "href": "https://openai.com/charter/",
+          "external": false
+        },
+        {
+          "label": "Careers",
+          "href": "https://openai.com/careers/",
+          "external": false
+        },
+        {
+          "label": "News",
+          "href": "https://openai.com/news/",
+          "external": false
+        }
+      ]
+    },
+    {
+      "title": "Support",
+      "links": [
+        {
+          "label": "Help Center",
+          "href": "https://help.openai.com/",
+          "external": true
+        }
+      ]
+    },
+    {
+      "title": "More",
+      "links": [
+        {
+          "label": "Stories",
+          "href": "https://openai.com/stories/",
+          "external": false
+        },
+        {
+          "label": "Academy",
+          "href": "https://openai.com/academy/",
+          "external": false
+        },
+        {
+          "label": "Supply Co.",
+          "href": "https://openai.com/supply/",
+          "external": false
+        },
+        {
+          "label": "Livestreams",
+          "href": "https://openai.com/live/",
+          "external": false
+        },
+        {
+          "label": "Podcast",
+          "href": "https://openai.com/podcast/",
+          "external": false
+        },
+        {
+          "label": "RSS",
+          "href": "https://openai.com/news/rss.xml",
+          "external": false
+        }
+      ]
+    },
+    {
+      "title": "Terms & Policies",
+      "links": [
+        {
+          "label": "Terms of Use",
+          "href": "https://openai.com/policies/terms-of-use/",
+          "external": false
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "https://openai.com/policies/privacy-policy/",
+          "external": false
+        },
+        {
+          "label": "Other Policies",
+          "href": "https://openai.com/policies/",
+          "external": false
+        }
+      ]
+    }
+  ]
+}
