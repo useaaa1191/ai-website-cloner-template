@@ -140,6 +140,7 @@ npm run dev    # Start dev server
 npm run build  # Production build
 npm run lint   # ESLint check
 npm run typecheck # TypeScript check
+npm run verify:clone # Structural clone gate (specs / research docs)
 npm run check  # Run lint + typecheck + build
 ```
 

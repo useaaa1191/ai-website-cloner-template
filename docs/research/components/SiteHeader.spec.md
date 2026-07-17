@@ -18,9 +18,13 @@
 - Mobile: hamburger reveals stacked nav
 - Search icon present (overlay not fully cloned)
 
-## Text Content
+## DOM Structure
+- Sticky header bar, logo left, nav center/right, auth CTAs right
+- Mobile: hamburger menu replaces full nav
+
+## Real Content
 Research, Products, Business, Developers, Company, Foundation, Log in, Try ChatGPT
 
-## Responsive
-- Desktop: full nav visible (≥1024px)
-- Mobile: logo + Try ChatGPT + menu
+## Responsive Behavior
+- **Desktop:** full nav visible (≥1024px)
+- **Mobile:** logo + Try ChatGPT + menu
