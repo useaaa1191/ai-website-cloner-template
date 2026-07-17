@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   ChevronDownIcon,
   ExternalArrowIcon,
@@ -18,9 +18,30 @@ interface SiteHeaderProps {
 
 export function SiteHeader({ nav }: SiteHeaderProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      const isScrolled = window.scrollY > 4;
+      setScrolled((prev) => (prev === isScrolled ? prev : isScrolled));
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
-    <header className="sticky top-0 z-50 h-[var(--header-h)] w-full bg-white/90 backdrop-blur-md">
+    <header
+      className={cn(
+        "sticky top-0 z-50 h-[var(--header-h)] w-full bg-white transition-[border-color] duration-150",
+        scrolled ? "border-b border-oai-border" : "border-b border-transparent"
+      )}
+    >
+      <a
+        href="#main"
+        className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[60] focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:shadow-md"
+      >
+        Skip to main content
+      </a>
       <div className="oai-container flex h-full items-center gap-5">
         <Link href="/" className="shrink-0 text-black" aria-label="OpenAI">
           <OpenAILogo className="h-[17px] w-auto" />

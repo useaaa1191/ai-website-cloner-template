@@ -7,7 +7,7 @@ export function CtaBanner({ heading, button }: CtaBannerProps) {
   return (
     <section className="oai-container">
       <div className="flex flex-col items-center justify-center rounded-3xl bg-oai-cta-bg px-6 py-16 text-center md:py-20">
-        <h2 className="text-[32px] font-semibold leading-tight tracking-[-0.32px] text-black md:text-[40px]">
+        <h2 className="text-[32px] font-medium leading-tight tracking-[-0.64px] text-black md:text-[48px] md:tracking-[-1.44px]">
           {heading}
         </h2>
         {button ? (
