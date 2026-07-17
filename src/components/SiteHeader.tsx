@@ -21,7 +21,10 @@ export function SiteHeader({ nav }: SiteHeaderProps) {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 4);
+    const onScroll = () => {
+      const isScrolled = window.scrollY > 4;
+      setScrolled((prev) => (prev === isScrolled ? prev : isScrolled));
+    };
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
