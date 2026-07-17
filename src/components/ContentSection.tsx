@@ -13,7 +13,7 @@ export function ContentSection({ section, variant }: ContentSectionProps) {
   return (
     <section className="oai-container">
       <div className="mb-8 flex items-end justify-between gap-4">
-        <h2 className="text-[28px] font-semibold leading-[34px] tracking-[-0.28px] text-black md:text-[32px]">
+        <h2 className="text-[22px] font-medium leading-[28px] tracking-[-0.22px] text-black">
           {section.heading}
         </h2>
         {section.viewMore ? (
