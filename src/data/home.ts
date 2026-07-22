@@ -1,578 +1,206 @@
 import type { HomeContent } from "@/types/home";
 
 export const homeContent: HomeContent = {
-  "meta": {
-    "title": "OpenAI | Research & Deployment",
-    "description": "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission."
-  },
-  "nav": [
-    {
-      "label": "Research",
-      "href": "https://openai.com/research/index/"
-    },
-    {
-      "label": "Products",
-      "href": "#products"
-    },
-    {
-      "label": "Business",
-      "href": "https://openai.com/business/"
-    },
-    {
-      "label": "Developers",
-      "href": "https://openai.com/api/"
-    },
-    {
-      "label": "Company",
-      "href": "https://openai.com/about/"
-    },
-    {
-      "label": "Foundation",
-      "href": "https://openaifoundation.org/",
-      "external": true
-    }
+  nav: [
+    { label: "Programs", href: "#programs" },
+    { label: "How it works", href: "#how-it-works" },
+    { label: "Evidence", href: "#evidence" },
+    { label: "Principles", href: "#principles" },
+    { label: "About", href: "#about" },
   ],
-  "hero": {
-    "title": "What can I help with?",
-    "placeholder": "Message ChatGPT",
-    "rotatingPrompts": [
-      "Quiz me on vocabulary",
-      "Plan a surf trip to Costa Rica in August",
-      "India stock market today",
-      "Explica por qu\u00e9 el ma\u00edz palomitas explota",
-      "Teach me Mahjong for beginners",
-      "Find hiking boots for wide feet",
-      "Explain this code",
-      "Was mach ich in Berlin wenn es regnet?",
-      "What are some outdoor markets in Mexico City?",
-      "R\u00e9digez une note de remerciement",
-      "Recommend an easy potluck dish",
-      "Write a Python script"
-    ],
-    "chips": [
-      {
-        "label": "Learn about ChatGPT Business",
-        "href": "https://openai.com/business/"
-      },
-      {
-        "label": "Talk with ChatGPT",
-        "href": "https://chatgpt.com/?mode=voice",
-        "external": true
-      },
-      {
-        "label": "Research",
-        "href": "https://openai.com/research/"
-      },
-      {
-        "label": "API Platform",
-        "href": "https://openai.com/api/"
-      },
-      {
-        "label": "Stories",
-        "href": "https://openai.com/stories/"
-      }
-    ],
-    "moreChip": {
-      "label": "Search with ChatGPT",
-      "href": "https://chatgpt.com/?hints=search",
-      "external": true
-    }
+  hero: {
+    eyebrow: "California nonprofit · public-benefit technology",
+    title: "Care decisions, not autopilot.",
+    description:
+      "Forward Foundation builds free, human-confirmed decision support for family dementia caregivers and the direct-care workforce.",
+    primaryAction: { label: "Try the KinSight demo", href: "#try-kinsight" },
+    secondaryAction: { label: "See both programs", href: "#programs" },
   },
-  "featured": [
+  programs: [
     {
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "href": "https://openai.com/index/gpt-5-6/",
-      "category": "Product",
-      "readTime": "18 min read",
-      "image": "/images/oai-b38c7be20da1.png",
-      "imageAlt": "\"\"",
-      "video": "/videos/oai-8ce491a724bc.mp4",
-      "variant": "primary"
+      id: "kinsight",
+      name: "KinSight",
+      audience: "For family dementia caregivers",
+      headline: "A careful next step when something feels different.",
+      description:
+        "A short voice or text observation is compared with the person’s own baseline. KinSight returns one of three reviewable bands, shows its reasons, and waits for the caregiver.",
+      facts: [
+        "Manage at home, contact the care team, or seek urgent help",
+        "Bilingual English and Spanish, built for voice-first use",
+        "Free to families, with export and delete under caregiver control",
+      ],
     },
     {
-      "title": "Take on your most ambitious work with ChatGPT",
-      "href": "https://openai.com/chatgpt-work/",
-      "category": null,
-      "readTime": "5 min read",
-      "image": "/images/oai-cc49fcbd0427.png",
-      "imageAlt": "ChatGPT Work menu in a browser window against a starry background, with Work selected and Codex, Scheduled, and Sites options shown.",
-      "video": "/videos/oai-0e92c02611d6.mp4",
-      "variant": "side"
+      id: "steadycrew",
+      name: "SteadyCrew",
+      audience: "For direct-care teams",
+      headline: "Coverage without forced overtime or silent tradeoffs.",
+      description:
+        "SteadyCrew proposes explainable matches using skills, language, location, continuity, availability, and hard safety constraints. Supervisors approve every change. Workers can decline.",
+      facts: [
+        "Credential gaps and maximum-hour violations block a proposal",
+        "Match and coverage-risk reasons are visible in plain language",
+        "Free to aides and supported through agency licensing",
+      ],
     },
-    {
-      "title": "Introducing GPT-Live",
-      "href": "https://openai.com/index/introducing-gpt-live/",
-      "category": "Product",
-      "readTime": "7 min read",
-      "image": "/images/oai-8b584e01f7d8.png",
-      "imageAlt": "Art Card 1 1",
-      "video": null,
-      "variant": "side"
-    },
-    {
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "href": "https://openai.com/index/daybreak-securing-the-world/",
-      "category": "Security",
-      "readTime": "8 min read",
-      "image": "/images/oai-dae35f6cfe08.png",
-      "imageAlt": "Expanding Daybreak Art Card",
-      "video": null,
-      "variant": "side"
-    }
   ],
-  "news": {
-    "heading": "Recent news",
-    "viewMore": {
-      "text": "View more",
-      "href": "https://openai.com/news/company-announcements/"
+  principles: [
+    {
+      title: "Personal context",
+      description:
+        "KinSight compares observations to a caregiver-controlled baseline, not a generic dementia profile.",
+      visual: "baseline",
+      tone: "sage",
     },
-    "cards": [
+    {
+      title: "Visible reasons",
+      description:
+        "Every care band and workforce match shows reason codes a person can inspect and challenge.",
+      visual: "reasons",
+      tone: "blue",
+    },
+    {
+      title: "Clean refusal",
+      description:
+        "Incomplete, contradictory, or prohibited requests are flagged for review instead of guessed through.",
+      visual: "refusal",
+      tone: "gold",
+    },
+    {
+      title: "Human gate",
+      description:
+        "Confirm, override, ignore, approve, edit, reject, or decline. Nothing acts or publishes silently.",
+      visual: "humanGate",
+      tone: "clay",
+    },
+    {
+      title: "Protection by design",
+      description:
+        "Privacy, dignity, decline rights, and a ban on disciplinary scoring are enforced as product requirements.",
+      visual: "protection",
+      tone: "plum",
+    },
+    {
+      title: "Built for real conditions",
+      description:
+        "Voice-first, bilingual, mobile-friendly flows are designed for late nights, one-handed use, and imperfect connectivity.",
+      visual: "language",
+      tone: "mint",
+    },
+  ],
+  evidence: {
+    eyebrow: "Prototype evidence",
+    title: "Built to say “I don’t know.”",
+    description:
+      "Both prototypes were exercised across 40 controlled cycles covering noisy inputs, missing information, unsafe requests, ordinary decisions, overrides, refusals, and recovery. The point was not to make a perfect demo. It was to expose the guardrails.",
+    metrics: [
       {
-        "title": "How agents are transforming work",
-        "href": "https://openai.com/index/how-agents-are-transforming-work/",
-        "category": "Company",
-        "date": "Jun 25, 2026",
-        "readTime": null,
-        "image": "/images/oai-239ddb7f4cbd.png",
-        "imageAlt": "How agents are transforming work > Cover image"
+        value: "87%",
+        label: "KinSight F1 score",
+        detail: "Observation structuring and three-band classification in a controlled labeled set.",
       },
       {
-        "title": "Confidential submission of draft S-1 to the SEC",
-        "href": "https://openai.com/index/openai-submits-confidential-s-1/",
-        "category": "Company",
-        "date": "Jun 8, 2026",
-        "readTime": null,
-        "image": "/images/oai-1c8bd36b5461.png",
-        "imageAlt": "Confidential submission of draft S-1 to the SEC > cover image"
+        value: "84%",
+        label: "SteadyCrew F1 score",
+        detail: "Open-visit fill and coverage-risk classification in a controlled labeled set.",
       },
       {
-        "title": "Built to benefit everyone: our plan",
-        "href": "https://openai.com/index/built-to-benefit-everyone-our-plan/",
-        "category": "Company",
-        "date": "Jun 8, 2026",
-        "readTime": null,
-        "image": "/images/oai-373244b870dd.png",
-        "imageAlt": "Built for broad benefit > cover"
+        value: "100%",
+        label: "Human-gated test actions",
+        detail: "No tested recommendation or schedule proposal bypassed the required person.",
       },
       {
-        "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
-        "href": "https://openai.com/index/advancing-content-provenance/",
-        "category": "Safety",
-        "date": "May 19, 2026",
-        "readTime": null,
-        "image": "/images/oai-da2047c8ca20.png",
-        "imageAlt": "Art card (4)"
+        value: "40 + 40",
+        label: "Logged test cycles",
+        detail: "Separate stress, safety, standard, edge, and override logs for each prototype.",
       },
-      {
-        "title": "A new personal finance experience in ChatGPT",
-        "href": "https://openai.com/index/personal-finance-chatgpt/",
-        "category": "Product",
-        "date": "May 15, 2026",
-        "readTime": null,
-        "image": "/images/oai-dd26ccf8bc82.png",
-        "imageAlt": "Personal finance in ChatGPT > Media > Cover"
-      },
-      {
-        "title": "Helping ChatGPT better recognize context in sensitive conversations",
-        "href": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations/",
-        "category": "Safety",
-        "date": "May 14, 2026",
-        "readTime": null,
-        "image": "/images/oai-ed1979ec4d87.png",
-        "imageAlt": "A soft, abstract gradient dominated by pink and blue hues, with gentle vertical blending and a warm orange-yellow glow"
-      }
-    ]
+    ],
+    note:
+      "These are internal prototype results from synthetic and de-identified scenarios. They are not clinical validation, agency outcomes, or a claim of real-world effectiveness.",
   },
-  "stories": {
-    "heading": "Stories",
-    "viewMore": {
-      "text": "View all",
-      "href": "https://openai.com/stories/"
+  scenarios: [
+    {
+      eyebrow: "A quiet change",
+      title: "“She skipped breakfast and lunch, and she’s more withdrawn than usual.”",
+      body:
+        "KinSight can surface a reviewable “contact the care team” band, explain that appetite and withdrawal changed from baseline, then wait for the caregiver to confirm or choose another path.",
+      meta: "KinSight · baseline-aware reasoning",
+      accent: "sage",
     },
-    "cards": [
+    {
+      eyebrow: "A last-minute call-out",
+      title: "A 2 p.m. visit opens with language and continuity needs.",
+      body:
+        "SteadyCrew can present qualified candidates, show language, distance, continuity, and credential reasons, then hold the proposal until a supervisor approves and the worker accepts.",
+      meta: "SteadyCrew · explainable matching",
+      accent: "blue",
+    },
+    {
+      eyebrow: "A line the tool will not cross",
+      title: "“Rank aides by speed for a disciplinary scorecard.”",
+      body:
+        "SteadyCrew refuses the request. KinSight likewise refuses to prescribe, guess through missing context, or treat an unknown protocol as an instruction.",
+      meta: "Shared safeguards · explicit refusal",
+      accent: "clay",
+    },
+  ],
+  safety: {
+    eyebrow: "Caregiver AI Principles",
+    title: "The recommendation is not the decision.",
+    description:
+      "Both programs follow the same accountable pattern: explain the reasoning, protect the person, and wait for confirmation.",
+    cards: [
       {
-        "title": "Training to cycle across Antarctica with ChatGPT",
-        "href": "https://openai.com/index/cycling-across-antarctica/",
-        "category": null,
-        "date": "Jun 11, 2026",
-        "readTime": null,
-        "image": "/images/oai-27fd686d7072.jpg",
-        "imageAlt": "A cyclist pushes a fat-tire bike across a wide snowy landscape."
+        label: "When information is incomplete",
+        title: "Ask, flag, or refuse.",
+        description:
+          "Low-confidence and contradictory inputs go to human review. Urgent red-flag language follows deterministic crisis routing rather than improvisation.",
       },
       {
-        "title": "Creating new simulations of black holes with Codex",
-        "href": "https://openai.com/index/creating-new-simulations-black-holes/",
-        "category": null,
-        "date": "Jun 11, 2026",
-        "readTime": null,
-        "image": "/images/oai-6a3d72550974.jpg",
-        "imageAlt": "CK Chan stands inside a large radio telescope dish."
+        label: "Before anything happens",
+        title: "A person makes the call.",
+        description:
+          "Caregivers and supervisors see the recommendation and reasons, then confirm, change, ignore, or reject it. Overrides remain visible in the record.",
       },
-      {
-        "title": "Chip Ganassi Racing \u00d7 OpenAI",
-        "href": "https://openai.com/index/chip-ganassi-racing/",
-        "category": "API",
-        "date": "May 28, 2026",
-        "readTime": null,
-        "image": "/images/oai-76580091e75f.jpg",
-        "imageAlt": "OpenAI Ganassi 1x1"
-      }
-    ]
+    ],
   },
-  "research": {
-    "heading": "Latest research",
-    "viewMore": {
-      "text": "View all",
-      "href": "https://openai.com/research/index/"
+  access: {
+    title: "Start with the tool that fits the day.",
+    description:
+      "Tell us whether you are caring for family or coordinating a care team. We will follow up directly, without putting you into a generic sales funnel.",
+    primaryAction: {
+      label: "I care for a family member",
+      href: "mailto:info@forwardfnd.org?subject=KinSight%20access",
     },
-    "cards": [
-      {
-        "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-        "href": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
-        "category": "Research",
-        "date": "May 20, 2026",
-        "readTime": null,
-        "image": "/images/oai-2d1900ba17c2.png",
-        "imageAlt": "Geometry > ArtCard > Polynomial Construction"
-      },
-      {
-        "title": "Introducing GPT-Rosalind for life sciences research",
-        "href": "https://openai.com/index/introducing-gpt-rosalind/",
-        "category": "Research",
-        "date": "Apr 16, 2026",
-        "readTime": null,
-        "image": "/images/oai-1c0e9461e35f.png",
-        "imageAlt": "OAI GPT-Rosaling Art Card 1x1"
-      },
-      {
-        "title": "How we monitor internal coding agents for misalignment",
-        "href": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
-        "category": "Safety",
-        "date": "Mar 19, 2026",
-        "readTime": null,
-        "image": "/images/oai-e3fd8bfecba6.png",
-        "imageAlt": "OAI Monitoring internal deployments for loss of control risks Art Card 1x1"
-      }
-    ]
+    secondaryAction: {
+      label: "I coordinate a care team",
+      href: "mailto:info@forwardfnd.org?subject=SteadyCrew%20access",
+    },
   },
-  "business": {
-    "heading": "OpenAI for business",
-    "viewMore": {
-      "text": "View all",
-      "href": "https://openai.com/business/customer-stories/"
-    },
-    "cards": [
-      {
-        "title": "Choco automates food distribution with AI agents",
-        "href": "https://openai.com/index/choco/",
-        "category": null,
-        "date": "Apr 27, 2026",
-        "readTime": null,
-        "image": "/images/oai-7d0cb7e6115b.png",
-        "imageAlt": "oai Choco 1x1"
-      },
-      {
-        "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
-        "href": "https://openai.com/index/cyberagent/",
-        "category": null,
-        "date": "Apr 9, 2026",
-        "readTime": null,
-        "image": "/images/oai-7dc96ba400c1.png",
-        "imageAlt": "oai CyberAgent 1x1"
-      },
-      {
-        "title": "Gradient Labs gives every bank customer an AI account manager",
-        "href": "https://openai.com/index/gradient-labs/",
-        "category": "Startup",
-        "date": "Apr 1, 2026",
-        "readTime": null,
-        "image": "/images/oai-c200260e8c0b.png",
-        "imageAlt": "oai GradientLabs 1x1"
-      }
-    ]
-  },
-  "cta": {
-    "heading": "Get started with ChatGPT",
-    "button": {
-      "text": "Download",
-      "href": "https://openai.com/chatgpt/download/"
-    }
-  },
-  "footer": [
+  footer: [
     {
-      "title": "Research",
-      "links": [
-        {
-          "label": "Research Index",
-          "href": "https://openai.com/research/index/",
-          "external": false
-        },
-        {
-          "label": "Research Overview",
-          "href": "https://openai.com/research/",
-          "external": false
-        },
-        {
-          "label": "Economic Research",
-          "href": "https://openai.com/signals/",
-          "external": false
-        }
-      ]
+      title: "Programs",
+      links: [
+        { label: "KinSight", href: "#kinsight" },
+        { label: "SteadyCrew", href: "#steadycrew" },
+        { label: "Request access", href: "#access" },
+      ],
     },
     {
-      "title": "Latest Advancements",
-      "links": [
-        {
-          "label": "GPT-5.6",
-          "href": "https://openai.com/index/gpt-5-6/",
-          "external": false
-        },
-        {
-          "label": "GPT-5.5",
-          "href": "https://openai.com/index/introducing-gpt-5-5/",
-          "external": false
-        },
-        {
-          "label": "GPT-5.4",
-          "href": "https://openai.com/index/introducing-gpt-5-4/",
-          "external": false
-        }
-      ]
+      title: "Approach",
+      links: [
+        { label: "How it works", href: "#how-it-works" },
+        { label: "Prototype evidence", href: "#evidence" },
+        { label: "Caregiver AI Principles", href: "#principles" },
+      ],
     },
     {
-      "title": "Safety",
-      "links": [
-        {
-          "label": "Safety Approach",
-          "href": "https://openai.com/safety/",
-          "external": false
-        },
-        {
-          "label": "Deployment Safety",
-          "href": "https://deploymentsafety.openai.com/",
-          "external": true
-        },
-        {
-          "label": "Security & Privacy",
-          "href": "https://openai.com/security-and-privacy/",
-          "external": false
-        },
-        {
-          "label": "Trust & Transparency",
-          "href": "https://openai.com/trust-and-transparency/",
-          "external": false
-        }
-      ]
+      title: "Foundation",
+      links: [
+        { label: "About", href: "#about" },
+        { label: "Contact", href: "mailto:info@forwardfnd.org" },
+        { label: "Sacramento, California", href: "#about" },
+      ],
     },
-    {
-      "title": "Products",
-      "links": [
-        {
-          "label": "ChatGPT",
-          "href": "https://chatgpt.com/?openaicom-did=000ede29-708e-4f22-884a-e692bcf3ac50&openaicom_referred=true",
-          "external": true
-        },
-        {
-          "label": "ChatGPT Business",
-          "href": "https://chatgpt.com/business/?openaicom-did=000ede29-708e-4f22-884a-e692bcf3ac50&openaicom_referred=true",
-          "external": true
-        },
-        {
-          "label": "ChatGPT Enterprise",
-          "href": "https://chatgpt.com/business/enterprise/?openaicom-did=000ede29-708e-4f22-884a-e692bcf3ac50&openaicom_referred=true",
-          "external": true
-        },
-        {
-          "label": "ChatGPT for Education",
-          "href": "https://chatgpt.com/business/education/?openaicom-did=000ede29-708e-4f22-884a-e692bcf3ac50&openaicom_referred=true",
-          "external": true
-        },
-        {
-          "label": "Codex",
-          "href": "https://openai.com/codex/",
-          "external": false
-        },
-        {
-          "label": "Release Notes",
-          "href": "https://openai.com/products/release-notes/",
-          "external": false
-        }
-      ]
-    },
-    {
-      "title": "API Platform",
-      "links": [
-        {
-          "label": "Overview",
-          "href": "https://openai.com/api/",
-          "external": false
-        },
-        {
-          "label": "API Log In",
-          "href": "https://platform.openai.com/login",
-          "external": true
-        },
-        {
-          "label": "Docs",
-          "href": "https://developers.openai.com/api/docs",
-          "external": true
-        }
-      ]
-    },
-    {
-      "title": "Business",
-      "links": [
-        {
-          "label": "Overview",
-          "href": "https://openai.com/business/",
-          "external": false
-        },
-        {
-          "label": "Solutions",
-          "href": "https://openai.com/solutions/",
-          "external": false
-        },
-        {
-          "label": "Resources",
-          "href": "https://openai.com/business/learn/",
-          "external": false
-        },
-        {
-          "label": "Customer Stories",
-          "href": "https://openai.com/business/customer-stories/",
-          "external": false
-        },
-        {
-          "label": "Partner Network",
-          "href": "https://openai.com/business/partners/",
-          "external": false
-        },
-        {
-          "label": "Contact Sales",
-          "href": "https://openai.com/contact-sales/",
-          "external": false
-        }
-      ]
-    },
-    {
-      "title": "Developers",
-      "links": [
-        {
-          "label": "Apps SDK",
-          "href": "https://developers.openai.com/apps-sdk",
-          "external": true
-        },
-        {
-          "label": "Open Models",
-          "href": "https://openai.com/open-models/",
-          "external": false
-        },
-        {
-          "label": "Docs",
-          "href": "https://developers.openai.com/",
-          "external": true
-        },
-        {
-          "label": "Resources",
-          "href": "https://developers.openai.com/learn",
-          "external": true
-        },
-        {
-          "label": "Developer Forum",
-          "href": "https://community.openai.com/",
-          "external": true
-        }
-      ]
-    },
-    {
-      "title": "Company",
-      "links": [
-        {
-          "label": "About Us",
-          "href": "https://openai.com/about/",
-          "external": false
-        },
-        {
-          "label": "Our Charter",
-          "href": "https://openai.com/charter/",
-          "external": false
-        },
-        {
-          "label": "Careers",
-          "href": "https://openai.com/careers/",
-          "external": false
-        },
-        {
-          "label": "News",
-          "href": "https://openai.com/news/",
-          "external": false
-        }
-      ]
-    },
-    {
-      "title": "Support",
-      "links": [
-        {
-          "label": "Help Center",
-          "href": "https://help.openai.com/",
-          "external": true
-        }
-      ]
-    },
-    {
-      "title": "More",
-      "links": [
-        {
-          "label": "Stories",
-          "href": "https://openai.com/stories/",
-          "external": false
-        },
-        {
-          "label": "Academy",
-          "href": "https://openai.com/academy/",
-          "external": false
-        },
-        {
-          "label": "Supply Co.",
-          "href": "https://openai.com/supply/",
-          "external": false
-        },
-        {
-          "label": "Livestreams",
-          "href": "https://openai.com/live/",
-          "external": false
-        },
-        {
-          "label": "Podcast",
-          "href": "https://openai.com/podcast/",
-          "external": false
-        },
-        {
-          "label": "RSS",
-          "href": "https://openai.com/news/rss.xml",
-          "external": false
-        }
-      ]
-    },
-    {
-      "title": "Terms & Policies",
-      "links": [
-        {
-          "label": "Terms of Use",
-          "href": "https://openai.com/policies/terms-of-use/",
-          "external": false
-        },
-        {
-          "label": "Privacy Policy",
-          "href": "https://openai.com/policies/privacy-policy/",
-          "external": false
-        },
-        {
-          "label": "Other Policies",
-          "href": "https://openai.com/policies/",
-          "external": false
-        }
-      ]
-    }
-  ]
+  ],
 };

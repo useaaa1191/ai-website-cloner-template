@@ -1,72 +1,90 @@
 export interface NavItem {
   label: string;
   href: string;
-  external?: boolean;
 }
 
-export interface HeroChip {
+export interface ActionLink {
   label: string;
   href: string;
-  external?: boolean;
 }
 
-export interface FeaturedCard {
+export interface Program {
+  id: "kinsight" | "steadycrew";
+  name: string;
+  audience: string;
+  headline: string;
+  description: string;
+  facts: string[];
+}
+
+export type PrincipleVisual =
+  | "baseline"
+  | "reasons"
+  | "refusal"
+  | "humanGate"
+  | "protection"
+  | "language";
+
+export interface Principle {
   title: string;
-  href: string;
-  category: string | null;
-  readTime: string | null;
-  image: string | null;
-  imageAlt: string;
-  video: string | null;
-  variant: "primary" | "side";
+  description: string;
+  visual: PrincipleVisual;
+  tone: "sage" | "clay" | "blue" | "gold" | "plum" | "mint";
 }
 
-export interface ContentCard {
-  title: string;
-  href: string;
-  category: string | null;
-  date: string | null;
-  readTime: string | null;
-  image: string | null;
-  imageAlt: string;
-}
-
-export interface ContentSection {
-  heading: string;
-  viewMore: { text: string; href: string } | null;
-  cards: ContentCard[];
-}
-
-export interface FooterLink {
+export interface EvidenceMetric {
+  value: string;
   label: string;
-  href: string;
-  external?: boolean;
+  detail: string;
+}
+
+export interface Scenario {
+  eyebrow: string;
+  title: string;
+  body: string;
+  meta: string;
+  accent: "sage" | "clay" | "blue";
 }
 
 export interface FooterGroup {
   title: string;
-  links: FooterLink[];
+  links: ActionLink[];
 }
 
 export interface HomeContent {
-  meta: { title: string; description: string };
   nav: NavItem[];
   hero: {
+    eyebrow: string;
     title: string;
-    placeholder: string;
-    rotatingPrompts: string[];
-    chips: HeroChip[];
-    moreChip: HeroChip;
+    description: string;
+    primaryAction: ActionLink;
+    secondaryAction: ActionLink;
   };
-  featured: FeaturedCard[];
-  news: ContentSection;
-  stories: ContentSection;
-  research: ContentSection;
-  business: ContentSection;
-  cta: {
-    heading: string;
-    button: { text: string; href: string } | null;
-    textAll?: string;
+  programs: Program[];
+  principles: Principle[];
+  evidence: {
+    eyebrow: string;
+    title: string;
+    description: string;
+    metrics: EvidenceMetric[];
+    note: string;
+  };
+  scenarios: Scenario[];
+  safety: {
+    eyebrow: string;
+    title: string;
+    description: string;
+    cards: Array<{
+      title: string;
+      description: string;
+      label: string;
+    }>;
+  };
+  access: {
+    title: string;
+    description: string;
+    primaryAction: ActionLink;
+    secondaryAction: ActionLink;
   };
   footer: FooterGroup[];
 }

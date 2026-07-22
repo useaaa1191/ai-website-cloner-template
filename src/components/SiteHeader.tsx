@@ -1,13 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
-  ChevronDownIcon,
-  ExternalArrowIcon,
+  ArrowUpRightIcon,
+  CloseIcon,
+  ForwardMark,
   MenuIcon,
-  OpenAILogo,
-  SearchIcon,
 } from "@/components/icons";
 import { cn } from "@/lib/utils";
 import type { NavItem } from "@/types/home";
@@ -19,84 +18,83 @@ interface SiteHeaderProps {
 export function SiteHeader({ nav }: SiteHeaderProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
+  useEffect(() => {
+    document.body.style.overflow = mobileOpen ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [mobileOpen]);
+
   return (
-    <header className="sticky top-0 z-50 h-[var(--header-h)] w-full bg-white/90 backdrop-blur-md">
-      <div className="oai-container flex h-full items-center gap-5">
-        <Link href="/" className="shrink-0 text-black" aria-label="OpenAI">
-          <OpenAILogo className="h-[17px] w-auto" />
+    <header className="sticky top-0 z-50 h-[var(--header-h)] w-full border-b border-transparent bg-white/92 backdrop-blur-xl">
+      <div className="ff-container flex h-full items-center gap-6">
+        <Link
+          href="/"
+          className="flex shrink-0 items-center gap-2.5 text-black"
+          aria-label="Forward Foundation home"
+        >
+          <ForwardMark className="size-7" />
+          <span className="hidden text-[15px] font-semibold tracking-[-0.02em] sm:inline">
+            Forward Foundation
+          </span>
+          <span className="text-[15px] font-semibold tracking-[-0.02em] sm:hidden">
+            Forward
+          </span>
         </Link>
 
-        <nav className="hidden min-w-0 flex-1 items-center gap-1 lg:flex">
+        <nav className="hidden min-w-0 flex-1 items-center gap-0.5 lg:flex" aria-label="Primary navigation">
           {nav.map((item) => (
             <Link
               key={item.label}
               href={item.href}
-              target={item.external ? "_blank" : undefined}
-              rel={item.external ? "noopener noreferrer" : undefined}
-              className="inline-flex items-center gap-1 rounded-full px-3 py-2 text-[14px] font-medium leading-none text-black transition-colors hover:bg-oai-pill"
+              className="rounded-full px-3 py-2 text-[14px] font-medium leading-none text-black transition-colors hover:bg-black/[0.05]"
             >
               {item.label}
-              {item.external ? (
-                <ExternalArrowIcon className="h-3 w-3 -translate-y-px" />
-              ) : null}
             </Link>
           ))}
-          <button
-            type="button"
-            aria-label="Open Search"
-            className="ml-1 inline-flex size-9 items-center justify-center rounded-full text-black transition-colors hover:bg-oai-pill"
-          >
-            <SearchIcon className="size-4" />
-          </button>
         </nav>
 
         <div className="ml-auto flex items-center gap-2">
-          <button
-            type="button"
-            className="hidden h-9 items-center gap-1 rounded-full bg-oai-pill px-5 text-[14px] font-medium leading-none text-black transition-colors hover:bg-oai-pill-hover sm:inline-flex"
-          >
-            Log in
-            <ChevronDownIcon className="size-3.5" />
-          </button>
           <a
-            href="https://chatgpt.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex h-9 items-center gap-1 rounded-full bg-black px-5 text-[14px] font-medium leading-none text-white transition-opacity hover:opacity-85"
+            href="mailto:info@forwardfnd.org?subject=Forward%20Foundation%20access"
+            className="inline-flex h-9 items-center gap-1.5 rounded-full bg-black px-4 text-[13px] font-medium leading-none text-white transition hover:bg-black/80 sm:px-5 sm:text-[14px]"
           >
-            Try ChatGPT
-            <ExternalArrowIcon className="h-3 w-3 -translate-y-px" />
+            Ask about access
+            <ArrowUpRightIcon className="size-3" />
           </a>
           <button
             type="button"
-            aria-label="Open mobile navigation"
-            className="inline-flex size-9 items-center justify-center rounded-full text-black lg:hidden"
-            onClick={() => setMobileOpen((v) => !v)}
+            aria-label={mobileOpen ? "Close navigation" : "Open navigation"}
+            aria-expanded={mobileOpen}
+            className="inline-flex size-9 items-center justify-center rounded-full text-black transition hover:bg-black/[0.05] lg:hidden"
+            onClick={() => setMobileOpen((current) => !current)}
           >
-            <MenuIcon className="size-5" />
+            {mobileOpen ? <CloseIcon className="size-5" /> : <MenuIcon className="size-5" />}
           </button>
         </div>
       </div>
 
       <div
         className={cn(
-          "absolute inset-x-0 top-[var(--header-h)] border-b border-oai-border bg-white lg:hidden",
-          mobileOpen ? "block" : "hidden"
+          "fixed inset-x-0 top-[var(--header-h)] bottom-0 border-t border-black/10 bg-white lg:hidden",
+          mobileOpen ? "block" : "hidden",
         )}
       >
-        <nav className="oai-container flex flex-col gap-1 py-4">
+        <nav className="ff-container flex flex-col py-5" aria-label="Mobile navigation">
           {nav.map((item) => (
             <Link
               key={item.label}
               href={item.href}
-              target={item.external ? "_blank" : undefined}
-              rel={item.external ? "noopener noreferrer" : undefined}
-              className="rounded-lg px-3 py-3 text-[16px] font-medium"
+              className="border-b border-black/10 py-5 text-[24px] font-medium leading-none tracking-[-0.03em]"
               onClick={() => setMobileOpen(false)}
             >
               {item.label}
             </Link>
           ))}
+          <div className="mt-auto pt-8 text-[14px] leading-relaxed text-black/55">
+            <p>Free, human-confirmed decision support.</p>
+            <p>Sacramento, California.</p>
+          </div>
         </nav>
       </div>
     </header>

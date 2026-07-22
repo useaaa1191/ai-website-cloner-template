@@ -1,0 +1,20 @@
+{
+  "desktop": {
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "scrollHeight": 8409,
+    "title": "Forward Foundation | Care decisions, not autopilot",
+    "horizontalOverflow": false,
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  "mobile": {
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "scrollHeight": 15562,
+    "title": "Forward Foundation | Care decisions, not autopilot",
+    "horizontalOverflow": false,
+    "consoleErrors": [],
+    "failedRequests": []
+  }
+}
