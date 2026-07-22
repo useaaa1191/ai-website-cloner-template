@@ -5,116 +5,59 @@
 @custom-variant dark (&:is(.dark *));
 
 @font-face {
-  font-family: "OpenAI Sans";
-  src: url("/fonts/OpenAISans-Light.woff2") format("woff2");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "OpenAI Sans";
-  src: url("/fonts/OpenAISans-LightItalic.woff2") format("woff2");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "OpenAI Sans";
+  font-family: "Foundation Sans";
   src: url("/fonts/OpenAISans-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
-  font-family: "OpenAI Sans";
-  src: url("/fonts/OpenAISans-RegularItalic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "OpenAI Sans";
+  font-family: "Foundation Sans";
   src: url("/fonts/OpenAISans-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
-  font-family: "OpenAI Sans";
-  src: url("/fonts/OpenAISans-MediumItalic.woff2") format("woff2");
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "OpenAI Sans";
+  font-family: "Foundation Sans";
   src: url("/fonts/OpenAISans-Semibold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "OpenAI Sans";
-  src: url("/fonts/OpenAISans-SemiboldItalic.woff2") format("woff2");
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "OpenAI Sans";
-  src: url("/fonts/OpenAISans-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "OpenAI Sans";
-  src: url("/fonts/OpenAISans-BoldItalic.woff2") format("woff2");
-  font-weight: 700;
-  font-style: italic;
   font-display: swap;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "OpenAI Sans", ui-sans-serif, system-ui, sans-serif;
-  --font-mono: ui-monospace, monospace;
-  --font-heading: var(--font-sans);
-  --color-sidebar-ring: var(--sidebar-ring);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar: var(--sidebar);
-  --color-chart-5: var(--chart-5);
-  --color-chart-4: var(--chart-4);
-  --color-chart-3: var(--chart-3);
-  --color-chart-2: var(--chart-2);
-  --color-chart-1: var(--chart-1);
-  --color-ring: var(--ring);
-  --color-input: var(--input);
-  --color-border: var(--border);
-  --color-destructive: var(--destructive);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-accent: var(--accent);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-muted: var(--muted);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-secondary: var(--secondary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-primary: var(--primary);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-popover: var(--popover);
-  --color-card-foreground: var(--card-foreground);
+  --font-sans: "Foundation Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
   --color-card: var(--card);
-  --color-oai-muted: var(--oai-muted);
-  --color-oai-border: var(--oai-border);
-  --color-oai-pill: var(--oai-pill);
-  --color-oai-pill-hover: var(--oai-pill-hover);
-  --color-oai-cta-bg: var(--oai-cta-bg);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ff-sage: var(--ff-sage);
+  --color-ff-sage-soft: var(--ff-sage-soft);
+  --color-ff-blue: var(--ff-blue);
+  --color-ff-blue-soft: var(--ff-blue-soft);
+  --color-ff-clay: var(--ff-clay);
+  --color-ff-clay-soft: var(--ff-clay-soft);
+  --color-ff-gold: var(--ff-gold);
+  --color-ff-gold-soft: var(--ff-gold-soft);
+  --color-ff-plum: var(--ff-plum);
+  --color-ff-plum-soft: var(--ff-plum-soft);
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
@@ -126,74 +69,120 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #000000;
+  --foreground: #11110f;
   --card: #ffffff;
-  --card-foreground: #000000;
+  --card-foreground: #11110f;
   --popover: #ffffff;
-  --popover-foreground: #000000;
-  --primary: #000000;
+  --popover-foreground: #11110f;
+  --primary: #11110f;
   --primary-foreground: #ffffff;
-  --secondary: #f5f5f5;
-  --secondary-foreground: #000000;
-  --muted: #f5f5f5;
-  --muted-foreground: rgba(0, 0, 0, 0.55);
-  --accent: #f5f5f5;
-  --accent-foreground: #000000;
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: rgba(0, 0, 0, 0.12);
-  --input: rgba(0, 0, 0, 0.12);
-  --ring: rgba(0, 0, 0, 0.3);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
-
+  --secondary: #f4f4f0;
+  --secondary-foreground: #11110f;
+  --muted: #f4f4f0;
+  --muted-foreground: #666660;
+  --accent: #efefe9;
+  --accent-foreground: #11110f;
+  --border: rgba(17, 17, 15, 0.14);
+  --input: rgba(17, 17, 15, 0.14);
+  --ring: rgba(17, 17, 15, 0.42);
+  --radius: 0.75rem;
   --header-h: 4rem;
-  --oai-muted: rgba(0, 0, 0, 0.55);
-  --oai-border: rgba(0, 0, 0, 0.12);
-  --oai-pill: rgba(0, 0, 0, 0.04);
-  --oai-pill-hover: rgba(0, 0, 0, 0.08);
-  --oai-cta-bg: #f3f3f3;
   --max-w-container: 1440px;
+  --ff-sage: #446853;
+  --ff-sage-soft: #dce8dd;
+  --ff-blue: #355c72;
+  --ff-blue-soft: #dce9ef;
+  --ff-clay: #9a533d;
+  --ff-clay-soft: #efddd4;
+  --ff-gold: #886521;
+  --ff-gold-soft: #f2e6c8;
+  --ff-plum: #67506d;
+  --ff-plum-soft: #e8ddea;
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground antialiased;
-    font-family: "OpenAI Sans", ui-sans-serif, system-ui, sans-serif;
+    font-family: "Foundation Sans", ui-sans-serif, system-ui, sans-serif;
     font-size: 17px;
-    line-height: 1.65;
-    letter-spacing: -0.17px;
+    line-height: 1.55;
+    letter-spacing: -0.012em;
   }
-  html {
-    @apply font-sans;
-    scroll-behavior: smooth;
+
+  button,
+  a,
+  input,
+  textarea {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  ::selection {
+    background: var(--ff-sage-soft);
+    color: var(--foreground);
   }
 }
 
 @layer utilities {
-  .oai-container {
+  .ff-container {
     width: 100%;
     max-width: var(--max-w-container);
     margin-inline: auto;
-    padding-inline: 1.5rem;
+    padding-inline: 1.25rem;
   }
+
+  .ff-section {
+    padding-block: 5rem;
+  }
+
+  .ff-kicker {
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .ff-balance {
+    text-wrap: balance;
+  }
+
+  .ff-pretty {
+    text-wrap: pretty;
+  }
+
+  .ff-grid-lines {
+    background-image:
+      linear-gradient(to right, rgba(17, 17, 15, 0.06) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(17, 17, 15, 0.06) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+
   @media (min-width: 768px) {
-    .oai-container {
+    .ff-container {
       padding-inline: 2rem;
     }
+
+    .ff-section {
+      padding-block: 7.5rem;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
