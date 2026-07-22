@@ -1,0 +1,473 @@
+{
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Now you can chat, work & code all in one place."
+    },
+    {
+      "tag": "H2",
+      "text": "Chat"
+    },
+    {
+      "tag": "H2",
+      "text": "Work"
+    },
+    {
+      "tag": "H2",
+      "text": "Codex"
+    },
+    {
+      "tag": "H2",
+      "text": "Use ChatGPT for work, life, and everything in between."
+    },
+    {
+      "tag": "H4",
+      "text": "Writing"
+    },
+    {
+      "tag": "H4",
+      "text": "Images"
+    },
+    {
+      "tag": "H4",
+      "text": "Work"
+    },
+    {
+      "tag": "H4",
+      "text": "Coding"
+    },
+    {
+      "tag": "H4",
+      "text": "Voice"
+    },
+    {
+      "tag": "H4",
+      "text": "Health"
+    },
+    {
+      "tag": "H4",
+      "text": "Finance"
+    },
+    {
+      "tag": "H2",
+      "text": "Plans and pricing"
+    },
+    {
+      "tag": "H2",
+      "text": "Designed to keep you safe"
+    },
+    {
+      "tag": "H3",
+      "text": "User privacy"
+    },
+    {
+      "tag": "H3",
+      "text": "Teen safety"
+    },
+    {
+      "tag": "H2",
+      "text": "Get inspired"
+    },
+    {
+      "tag": "H2",
+      "text": "Try ChatGPT today"
+    }
+  ],
+  "navLinks": [
+    {
+      "text": "About",
+      "href": "https://chatgpt.com/overview/"
+    },
+    {
+      "text": "ChatGPT Work",
+      "href": "https://chatgpt.com/work/"
+    },
+    {
+      "text": "Deep Research",
+      "href": "https://chatgpt.com/features/deep-research/"
+    },
+    {
+      "text": "Images",
+      "href": "https://chatgpt.com/images/"
+    },
+    {
+      "text": "Plugins",
+      "href": "https://chatgpt.com/features/plugins/"
+    },
+    {
+      "text": "Remote",
+      "href": "https://chatgpt.com/remote"
+    },
+    {
+      "text": "Shopping",
+      "href": "https://chatgpt.com/shopping/"
+    },
+    {
+      "text": "Study Mode",
+      "href": "https://chatgpt.com/features/study-mode/"
+    },
+    {
+      "text": "Voice",
+      "href": "https://chatgpt.com/features/voice/"
+    },
+    {
+      "text": "Voice with Video",
+      "href": "https://chatgpt.com/features/voice-with-video/"
+    },
+    {
+      "text": "Students",
+      "href": "https://chatgpt.com/use-cases/students/"
+    },
+    {
+      "text": "University Educators",
+      "href": "https://chatgpt.com/use-cases/university-educators/"
+    },
+    {
+      "text": "Teachers",
+      "href": "https://chatgpt.com/use-cases/teachers/"
+    },
+    {
+      "text": "Science and Medicine",
+      "href": "https://chatgpt.com/use-cases/science-medicine"
+    },
+    {
+      "text": "Parents",
+      "href": "https://chatgpt.com/parent-resources/"
+    },
+    {
+      "text": "Veterans",
+      "href": "https://chatgpt.com/use-cases/veterans/"
+    },
+    {
+      "text": "Fitness, Wellness, and Health",
+      "href": "https://chatgpt.com/use-cases/fitness-wellness-and-health/"
+    },
+    {
+      "text": "Money and Finances",
+      "href": "https://chatgpt.com/use-cases/money-and-finances"
+    },
+    {
+      "text": "Recipes and Cooking",
+      "href": "https://chatgpt.com/use-cases/recipes-cooking/"
+    },
+    {
+      "text": "Travel and Exploration",
+      "href": "https://chatgpt.com/use-cases/travel-and-exploration/"
+    },
+    {
+      "text": "Canva in ChatGPT",
+      "href": "https://chatgpt.com/apps/canva/"
+    },
+    {
+      "text": "Spotify in ChatGPT",
+      "href": "https://chatgpt.com/apps/spotify/"
+    },
+    {
+      "text": "ChatGPT for PowerPoint",
+      "href": "https://chatgpt.com/apps/powerpoint/"
+    },
+    {
+      "text": "Chat with PDFs",
+      "href": "https://chatgpt.com/features/chat-with-pdfs/"
+    },
+    {
+      "text": "Chat with Presentations",
+      "href": "https://chatgpt.com/use-cases/chat-with-presentations/"
+    },
+    {
+      "text": "Chat with Spreadsheets",
+      "href": "https://chatgpt.com/use-cases/chat-with-spreadsheets/"
+    },
+    {
+      "text": "For College Students",
+      "href": "https://chatgpt.com/college-students/"
+    },
+    {
+      "text": "Codex",
+      "href": "https://chatgpt.com/codex/"
+    },
+    {
+      "text": "Overview",
+      "href": "https://chatgpt.com/codex/"
+    },
+    {
+      "text": "Pricing",
+      "href": "https://chatgpt.com/codex/pricing/"
+    },
+    {
+      "text": "Enterprise",
+      "href": "https://chatgpt.com/codex/enterprise/"
+    },
+    {
+      "text": "Import to ChatGPT",
+      "href": "https://chatgpt.com/import-to-chatgpt/"
+    },
+    {
+      "text": "Developer Docs",
+      "href": "https://developers.openai.com/codex/"
+    },
+    {
+      "text": "Codex Events",
+      "href": "https://academy.openai.com/public/clubs/builders-etkn1/tags/codex-for-builders-69a092a5916a548dee49a6bd/"
+    },
+    {
+      "text": "Business",
+      "href": "https://chatgpt.com/business/"
+    },
+    {
+      "text": "Overview",
+      "href": "https://chatgpt.com/business/"
+    },
+    {
+      "text": "Contact Sales",
+      "href": "https://chatgpt.com/contact-sales/"
+    },
+    {
+      "text": "Merchants",
+      "href": "https://chatgpt.com/merchants/"
+    },
+    {
+      "text": "Data Science & Analytics",
+      "href": "https://chatgpt.com/business/ai-for-data-science-analytics/"
+    },
+    {
+      "text": "Engineering",
+      "href": "https://chatgpt.com/business/ai-for-engineering/"
+    },
+    {
+      "text": "Finance",
+      "href": "https://chatgpt.com/business/ai-for-finance/"
+    },
+    {
+      "text": "Product Management",
+      "href": "https://chatgpt.com/business/ai-for-product-management/"
+    },
+    {
+      "text": "Sales & Marketing",
+      "href": "https://chatgpt.com/business/ai-for-sales-marketing/"
+    },
+    {
+      "text": "Pricing",
+      "href": "https://chatgpt.com/pricing/"
+    },
+    {
+      "text": "Overview",
+      "href": "https://chatgpt.com/pricing/"
+    },
+    {
+      "text": "Free",
+      "href": "https://chatgpt.com/plans/free/"
+    },
+    {
+      "text": "Go",
+      "href": "https://chatgpt.com/plans/go/"
+    },
+    {
+      "text": "Plus",
+      "href": "https://chatgpt.com/plans/plus/"
+    },
+    {
+      "text": "Pro",
+      "href": "https://chatgpt.com/plans/pro/"
+    },
+    {
+      "text": "Business",
+      "href": "https://chatgpt.com/business/business-plan/"
+    },
+    {
+      "text": "Enterprise",
+      "href": "https://chatgpt.com/business/enterprise/"
+    },
+    {
+      "text": "Higher Education",
+      "href": "https://chatgpt.com/business/education/"
+    },
+    {
+      "text": "K–12 Teachers",
+      "href": "https://chatgpt.com/plans/k12-teachers/"
+    },
+    {
+      "text": "Download",
+      "href": "https://chatgpt.com/download/"
+    },
+    {
+      "text": "About",
+      "href": "https://chatgpt.com/overview/"
+    },
+    {
+      "text": "Download",
+      "href": "https://chatgpt.com/download/"
+    }
+  ],
+  "sections": [
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "id": "",
+      "childCount": 0,
+      "hasVideo": false,
+      "hasImg": false
+    },
+    {
+      "tag": "DIV",
+      "classes": "",
+      "id": "wm-ipp-base",
+      "childCount": 0,
+      "hasVideo": false,
+      "hasImg": false
+    },
+    {
+      "tag": "DIV",
+      "classes": "",
+      "id": "wm-ipp-print",
+      "childCount": 0,
+      "hasVideo": false,
+      "hasImg": false
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "id": "",
+      "childCount": 0,
+      "hasVideo": false,
+      "hasImg": false
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "id": "",
+      "childCount": 0,
+      "hasVideo": false,
+      "hasImg": false
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "id": "",
+      "childCount": 0,
+      "hasVideo": false,
+      "hasImg": false
+    },
+    {
+      "tag": "DIV",
+      "classes": "bg-token-bg-primary text-token-text-primary font-oai",
+      "id": "",
+      "childCount": 3,
+      "hText": "Now you can chat, work & code all in one place.",
+      "hasVideo": false,
+      "hasImg": true
+    },
+    {
+      "tag": "AUDIO",
+      "classes": "fixed start-0 bottom-0 hidden h-0 w-0",
+      "id": "",
+      "childCount": 0,
+      "hasVideo": false,
+      "hasImg": false
+    },
+    {
+      "tag": "DIV",
+      "classes": "sr-only",
+      "id": "aria-notify-live-region-assertive",
+      "childCount": 1,
+      "hasVideo": false,
+      "hasImg": false
+    },
+    {
+      "tag": "DIV",
+      "classes": "sr-only",
+      "id": "aria-notify-live-region-polite",
+      "childCount": 1,
+      "hasVideo": false,
+      "hasImg": false
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "id": "",
+      "childCount": 0,
+      "hasVideo": false,
+      "hasImg": false
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "id": "client-bootstrap",
+      "childCount": 0,
+      "hasVideo": false,
+      "hasImg": false
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "id": "",
+      "childCount": 0,
+      "hasVideo": false,
+      "hasImg": false
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "id": "",
+      "childCount": 0,
+      "hasVideo": false,
+      "hasImg": false
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "id": "",
+      "childCount": 0,
+      "hasVideo": false,
+      "hasImg": false
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "id": "",
+      "childCount": 0,
+      "hasVideo": false,
+      "hasImg": false
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "id": "",
+      "childCount": 0,
+      "hasVideo": false,
+      "hasImg": false
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "id": "",
+      "childCount": 0,
+      "hasVideo": false,
+      "hasImg": false
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "id": "_R_",
+      "childCount": 0,
+      "hasVideo": false,
+      "hasImg": false
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "id": "",
+      "childCount": 0,
+      "hasVideo": false,
+      "hasImg": false
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "id": "",
+      "childCount": 0,
+      "hasVideo": false,
+      "hasImg": false
+    }
+  ]
+}
