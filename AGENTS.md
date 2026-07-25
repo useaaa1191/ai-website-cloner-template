@@ -62,4 +62,11 @@ scripts/            # Asset download scripts
 - After editing `AGENTS.md`, run `bash scripts/sync-agent-rules.sh` to regenerate platform-specific instruction files.
 - After editing `.claude/skills/clone-website/SKILL.md`, run `node scripts/sync-skills.mjs` to regenerate the skill for all platforms.
 
+## Cursor Cloud specific instructions
+- This repo requires Node `>=24` (`package.json` `engines`), but the base cloud VM's default `node` (a `/exec-daemon/node` shim early on `PATH`) is v22 and shadows nvm's binary. Node 24 is installed via nvm and prepended in `~/.bashrc`, so fresh login shells (including `tmux ... -l`) get v24 automatically. If a shell reports v22, run `export PATH="$HOME/.nvm/versions/node/v24.18.0/bin:$PATH"`. Note `npm` already resolves to the nvm copy even when `node` does not, so a v22 `node` + v11 `npm` mix is the tell.
+- The product is a single static Next.js 16 (Turbopack) app: the only route is `/` (an OpenAI.com homepage clone). No backend, database, env vars, or external services are needed to run or build it.
+- Standard commands live in the `## Commands` section above and `package.json` scripts (`dev`/`build`/`lint`/`typecheck`/`check`). `npm run dev` serves on port 3000.
+- `npm install` under npm 11 prints `allow-scripts` warnings for `sharp`/`msw`/`unrs-resolver` install scripts; these are transitive and do not block dev, build, lint, or typecheck.
+- The hero prompt input is the main interactive element: submitting opens `https://chatgpt.com/?q=...` in a new tab (external). Most nav/footer links point to real `openai.com`/`chatgpt.com` URLs.
+
 @docs/research/INSPECTION_GUIDE.md
