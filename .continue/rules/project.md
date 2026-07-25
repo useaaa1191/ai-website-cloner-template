@@ -28,6 +28,7 @@ A reusable template for reverse-engineering any website into a clean, modern Nex
 - `npm run build` — Production build
 - `npm run lint` — ESLint check
 - `npm run typecheck` — TypeScript check
+- `npm run verify:clone` — Structural clone gate (specs, screenshots, research docs)
 - `npm run check` — Run lint + typecheck + build
 
 ## Code Style
@@ -42,6 +43,7 @@ A reusable template for reverse-engineering any website into a clean, modern Nex
 - **No personal aesthetic changes during emulation phase** — match 1:1 first, customize later
 - **Real content** — use actual text and assets from the target site, not placeholders
 - **Beauty-first** — every pixel matters
+- **Gates over reminders** — before dispatching builders or calling a clone done, run `npm run verify:clone` (add `-- --strict` at completion). A green nod at a markdown checklist is not proof.
 
 ## Project Structure
 ```
@@ -61,91 +63,96 @@ public/
 docs/
   research/         # Inspection output (design tokens, components, layout)
   design-references/ # Screenshots and visual references
-scripts/            # Asset download scripts
+scripts/            # Asset download scripts + verify-clone-gate.mjs
 ```
 
 ## MOST IMPORTANT NOTES
 - When launching Claude Code agent teams, ALWAYS have each teammate work in their own worktree branch and merge everyone's work at the end, resolving any merge conflicts smartly since you are basically serving the orchestrator role and have full context to our goals, work given, work achieved, and desired outcomes.
 - After editing `AGENTS.md`, run `bash scripts/sync-agent-rules.sh` to regenerate platform-specific instruction files.
 - After editing `.claude/skills/clone-website/SKILL.md`, run `node scripts/sync-skills.mjs` to regenerate the skill for all platforms.
+- Run `npm run verify:clone` before dispatching builders. Run `npm run verify:clone -- --strict` before declaring the clone complete.
 
 # Website Inspection Guide
 
-## How to Reverse-Engineer Any Website
+How to reverse-engineer a target site with browser MCP or DevTools. The `/clone-website` skill owns the full pipeline. This guide is the inspection checklist that feeds it.
 
-This guide outlines what to capture when inspecting a target website via Chrome MCP or browser DevTools.
+## Phase 1: Visual audit
 
-## Phase 1: Visual Audit
+### Screenshots to capture
+- [ ] Full page at desktop (1440px), tablet (768px), mobile (390px)
+- [ ] Dark / light variants when the site has them
+- [ ] Key interaction states (hover, open menus, modals, scrolled header)
+- [ ] Loading / skeleton / empty / error states when present
 
-### Screenshots to Capture
-- [ ] Every distinct page — desktop, tablet, mobile
-- [ ] Dark mode variants (if applicable)
-- [ ] Light mode variants (if applicable)
-- [ ] Key interaction states (hover, active, open menus, modals)
-- [ ] Loading/skeleton states
-- [ ] Empty states
-- [ ] Error states
+Save under `docs/design-references/<hostname>/`.
 
-### Design Tokens to Extract
-- [ ] **Colors** — background, text (primary/secondary/muted), accent, border, hover, error, success, warning
-- [ ] **Typography** — font family, sizes (h1-h6, body, caption, label), weights, line heights, letter spacing
-- [ ] **Spacing** — padding/margin patterns (look for a scale: 4px, 8px, 12px, 16px, 24px, 32px, etc.)
-- [ ] **Border radius** — buttons, cards, avatars, inputs
-- [ ] **Shadows/elevation** — card shadows, dropdown shadows, modal overlay
-- [ ] **Breakpoints** — when does the layout shift? (inspect with DevTools responsive mode)
-- [ ] **Icons** — which icon library? custom SVGs? sizes?
-- [ ] **Avatars** — sizes, shapes, fallback behavior
-- [ ] **Buttons** — all variants (primary, secondary, ghost, icon-only, danger)
-- [ ] **Inputs** — text fields, textareas, selects, checkboxes, toggles
+### Design tokens to extract
+- [ ] **Colors** — background, text, accent, border, hover, status
+- [ ] **Typography** — families, sizes, weights, line heights, letter spacing
+- [ ] **Spacing** — padding/margin scale actually used
+- [ ] **Radius / shadow / elevation**
+- [ ] **Breakpoints** — where layout shifts
+- [ ] **Icons** — library vs custom SVG
+- [ ] **Buttons / inputs** — every variant you will rebuild
 
-## Phase 2: Component Inventory
+Put live tokens into `src/app/globals.css` and fonts into `src/app/layout.tsx`. Do not invent a parallel `DESIGN_TOKENS.md` unless you need a human-readable dump; the CSS variables are the source of truth for builders.
 
-For each distinct UI component, document:
-1. **Name** — what would you call this component?
-2. **Structure** — what HTML elements / child components does it contain?
-3. **Variants** — does it have different sizes, colors, or states?
-4. **States** — default, hover, active, disabled, loading, error, empty
-5. **Responsive behavior** — how does it change at different breakpoints?
-6. **Interactions** — click, hover, focus, keyboard navigation
-7. **Animations** — transitions, entrance/exit animations, micro-interactions
+## Phase 2: Behavior and topology
 
-### Common Components to Look For
-- Navigation (top bar, sidebar, bottom bar)
-- Cards / list items
-- Buttons and links
-- Forms and inputs
-- Modals and dialogs
-- Dropdowns and menus
-- Tabs and segmented controls
-- Avatars and user badges
-- Loading skeletons
-- Toast notifications
-- Tooltips and popovers
+Mandatory before any builder dispatch (also enforced by `npm run verify:clone`):
 
-## Phase 3: Layout Architecture
+- [ ] `docs/research/<hostname>/BEHAVIORS.md` — scroll, click, hover, responsive findings
+- [ ] `docs/research/<hostname>/PAGE_TOPOLOGY.md` — section order, sticky layers, interaction model per section
 
-- [ ] **Grid system** — CSS Grid? Flexbox? Fixed widths?
-- [ ] **Column layout** — how many columns at each breakpoint?
-- [ ] **Max-width** — main content area max-width
-- [ ] **Sticky elements** — header, sidebar, floating buttons
-- [ ] **Z-index layers** — navigation, modals, tooltips, overlays
-- [ ] **Scroll behavior** — infinite scroll, pagination, virtual scrolling
+### Interaction model first
+For each section, decide: static, click-driven, scroll-driven, time-driven, or a mix. Scroll before you click. Wrong model means a rewrite, not a CSS tweak.
 
-## Phase 4: Technical Stack Analysis
+## Phase 3: Component inventory
 
-- [ ] **Framework** — React? Vue? Angular? Check `__NEXT_DATA__`, `__NUXT__`, `ng-version`
-- [ ] **CSS approach** — Tailwind (utility classes), CSS Modules, Styled Components, Emotion, vanilla CSS
-- [ ] **State management** — Redux (check DevTools), React Query, Zustand, Pinia
-- [ ] **API patterns** — REST, GraphQL (check network tab for `/graphql` requests)
-- [ ] **Font loading** — Google Fonts, self-hosted, system fonts
-- [ ] **Image strategy** — CDN, lazy loading, srcset, WebP/AVIF
-- [ ] **Animation library** — Framer Motion, GSAP, CSS transitions only
+For each distinct UI section, write a spec **before** dispatching a builder:
 
-## Phase 5: Documentation Output
+`docs/research/components/<ComponentName>.spec.md`
 
-After inspection, create these files in `docs/research/`:
-1. `DESIGN_TOKENS.md` — All extracted colors, typography, spacing
-2. `COMPONENT_INVENTORY.md` — Every component with structure notes
-3. `LAYOUT_ARCHITECTURE.md` — Page layouts, grid system, responsive behavior
-4. `INTERACTION_PATTERNS.md` — Animations, transitions, hover states
-5. `TECH_STACK_ANALYSIS.md` — What the site uses and our chosen equivalents
+Required sections (gate-checked):
+
+1. **Overview** — target file, screenshot path, interaction model
+2. **DOM Structure** — what contains what
+3. **Computed Styles** — values from `getComputedStyle()`, not guesses
+4. **States & Behaviors** — triggers, before/after, transitions
+5. **Real Content** — verbatim text and asset paths
+6. **Responsive Behavior** — desktop / tablet / mobile
+
+Run `npm run verify:clone` after writing specs. Fix every FAIL before dispatch. At completion run `npm run verify:clone -- --strict`.
+
+### Common components to look for
+Navigation, cards, buttons, forms, modals, dropdowns, tabs, avatars, skeletons, toasts, tooltips.
+
+## Phase 4: Layout architecture
+
+- [ ] Grid vs flex, column counts per breakpoint
+- [ ] Content max-width
+- [ ] Sticky elements and z-index layers
+- [ ] Scroll behavior (snap, smooth-scroll libraries, infinite scroll)
+
+## Phase 5: Stack notes
+
+Record only what changes how you rebuild:
+
+- [ ] Framework signals (`__NEXT_DATA__`, etc.)
+- [ ] CSS approach (Tailwind utilities, CSS-in-JS, sheets)
+- [ ] Font loading strategy
+- [ ] Image / video delivery (CDN, srcset, formats)
+- [ ] Animation approach (CSS, Motion, GSAP, Lottie, canvas)
+
+Optional human dump: `docs/research/<hostname>/TECH_STACK.md`. Builders still get CSS and behavior inline from the component spec, never "see TECH_STACK.md".
+
+## Phase 6: Output map
+
+| Artifact | Path |
+| --- | --- |
+| Behaviors bible | `docs/research/<hostname>/BEHAVIORS.md` |
+| Assembly blueprint | `docs/research/<hostname>/PAGE_TOPOLOGY.md` |
+| Component contracts | `docs/research/components/*.spec.md` |
+| Screenshots | `docs/design-references/<hostname>/` |
+| Tokens in code | `src/app/globals.css`, `src/app/layout.tsx` |
+| Gate | `npm run verify:clone` |

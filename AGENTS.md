@@ -21,6 +21,7 @@ A reusable template for reverse-engineering any website into a clean, modern Nex
 - `npm run build` — Production build
 - `npm run lint` — ESLint check
 - `npm run typecheck` — TypeScript check
+- `npm run verify:clone` — Structural clone gate (specs, screenshots, research docs)
 - `npm run check` — Run lint + typecheck + build
 
 ## Code Style
@@ -35,6 +36,7 @@ A reusable template for reverse-engineering any website into a clean, modern Nex
 - **No personal aesthetic changes during emulation phase** — match 1:1 first, customize later
 - **Real content** — use actual text and assets from the target site, not placeholders
 - **Beauty-first** — every pixel matters
+- **Gates over reminders** — before dispatching builders or calling a clone done, run `npm run verify:clone` (add `-- --strict` at completion). A green nod at a markdown checklist is not proof.
 
 ## Project Structure
 ```
@@ -54,12 +56,13 @@ public/
 docs/
   research/         # Inspection output (design tokens, components, layout)
   design-references/ # Screenshots and visual references
-scripts/            # Asset download scripts
+scripts/            # Asset download scripts + verify-clone-gate.mjs
 ```
 
 ## MOST IMPORTANT NOTES
 - When launching Claude Code agent teams, ALWAYS have each teammate work in their own worktree branch and merge everyone's work at the end, resolving any merge conflicts smartly since you are basically serving the orchestrator role and have full context to our goals, work given, work achieved, and desired outcomes.
 - After editing `AGENTS.md`, run `bash scripts/sync-agent-rules.sh` to regenerate platform-specific instruction files.
 - After editing `.claude/skills/clone-website/SKILL.md`, run `node scripts/sync-skills.mjs` to regenerate the skill for all platforms.
+- Run `npm run verify:clone` before dispatching builders. Run `npm run verify:clone -- --strict` before declaring the clone complete.
 
 @docs/research/INSPECTION_GUIDE.md

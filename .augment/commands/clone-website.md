@@ -116,7 +116,21 @@ The spec file is not optional. It is not a nice-to-have. If you dispatch a build
 
 ### 9. Build Must Always Compile
 
-Every builder agent must verify `npx tsc --noEmit` passes before finishing. After merging worktrees, you verify `npm run build` passes. A broken build is never acceptable, even temporarily.
+Every builder agent must verify `npm run typecheck` passes before finishing. After merging worktrees, you verify `npm run build` passes. A broken build is never acceptable, even temporarily.
+
+### 10. The Clone Gate Is Mandatory
+
+Text checklists get skipped. Before dispatching any builder, and again before you call the clone done, run the structural gate:
+
+```bash
+npm run verify:clone
+# at completion:
+npm run verify:clone -- --strict
+# multi-site / host-scoped research:
+npm run verify:clone -- --host example.com
+```
+
+The script fails if component specs are missing, thin, guessy, or missing screenshots / `PAGE_TOPOLOGY.md` / `BEHAVIORS.md`. Do not dispatch on a red gate. Do not "check the boxes" by eye instead of running it.
 
 ## Phase 1: Reconnaissance
 
@@ -388,7 +402,7 @@ Based on complexity, dispatch builder agent(s) in worktree(s):
 - Path to the section screenshot in `docs/design-references/`
 - Which shared components to import (`icons.tsx`, `cn()`, shadcn primitives)
 - The target file path (e.g., `src/components/HeroSection.tsx`)
-- Instruction to verify with `npx tsc --noEmit` before finishing
+- Instruction to verify with `npm run typecheck` before finishing
 - For responsive behavior: the specific breakpoint values and what changes
 
 **Don't wait.** As soon as you've dispatched the builder(s) for one section, move to extracting the next section. Builders work in parallel in their worktrees while you continue extraction.
@@ -427,22 +441,28 @@ After assembly, do NOT declare the clone complete. Take side-by-side comparison 
 5. Test all interactive behaviors: scroll through the page, click every button/tab, hover over interactive elements
 6. Verify smooth scroll feels right, header transitions work, tab switching works, animations play
 
-Only after this visual QA pass is the clone complete.
+Only after this visual QA pass **and** a green `npm run verify:clone -- --strict` is the clone complete.
 
-## Pre-Dispatch Checklist
+## Pre-Dispatch Gate
 
-Before dispatching ANY builder agent, verify you can check every box. If you can't, go back and extract more.
+Before dispatching ANY builder agent, run:
 
-- [ ] Spec file written to `docs/research/components/<name>.spec.md` with ALL sections filled
-- [ ] Every CSS value in the spec is from `getComputedStyle()`, not estimated
-- [ ] Interaction model is identified and documented (static / click / scroll / time)
-- [ ] For stateful components: every state's content and styles are captured
-- [ ] For scroll-driven components: trigger threshold, before/after styles, and transition are recorded
-- [ ] For hover states: before/after values and transition timing are recorded
-- [ ] All images in the section are identified (including overlays and layered compositions)
-- [ ] Responsive behavior is documented for at least desktop and mobile
-- [ ] Text content is verbatim from the site, not paraphrased
-- [ ] The builder prompt is under ~150 lines of spec; if over, the section needs to be split
+```bash
+npm run verify:clone
+```
+
+Fix every FAIL. The script encodes this checklist (do not substitute a mental tick-box):
+
+- Spec file written to `docs/research/components/<name>.spec.md` with required headings
+- Interaction model documented (static / click / scroll / time)
+- Screenshot path under `docs/design-references/` resolves on disk
+- `PAGE_TOPOLOGY.md` and `BEHAVIORS.md` exist under `docs/research/` (or `docs/research/<host>/`)
+- No guess-markers (`TODO`, `TBD`, `looks like`, `approximately`, `lorem ipsum`)
+- Every CSS value came from `getComputedStyle()`, not estimation
+- For stateful / scroll-driven / hover: before/after and triggers recorded in the spec
+- Builder prompt under ~150 lines of spec; split if over
+
+At completion, also run `npm run verify:clone -- --strict` (requires DOM Structure, Real Content, Responsive Behavior headings and target files on disk).
 
 ## What NOT to Do
 
@@ -461,6 +481,7 @@ These are lessons from previous failed clones — each one cost hours of rework:
 - **Don't skip responsive extraction.** If you only inspect at desktop width, the clone will break at tablet and mobile. Test at 1440, 768, and 390 during extraction.
 - **Don't forget smooth scroll libraries.** Check for Lenis (`.lenis` class), Locomotive Scroll, or similar. Default browser scrolling feels noticeably different and the user will spot it immediately.
 - **Don't dispatch builders without a spec file.** The spec file forces exhaustive extraction and creates an auditable artifact. Skipping it means the builder gets whatever you can fit in a prompt from memory.
+- **Don't skip `npm run verify:clone`.** A checklist you only read is not a gate. The script is the gate.
 
 ## Completion
 
@@ -470,5 +491,6 @@ When done, report:
 - Total spec files written (should match components)
 - Total assets downloaded (images, videos, SVGs, fonts)
 - Build status (`npm run build` result)
+- Clone gate status (`npm run verify:clone -- --strict`)
 - Visual QA results (any remaining discrepancies)
 - Any known gaps or limitations

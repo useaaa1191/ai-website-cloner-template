@@ -7,8 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- `npm run verify:clone` structural gate (`scripts/verify-clone-gate.mjs`) that fails on missing specs, thin research docs, or guess-marker language before builder dispatch
+
 ### Changed
 - Raised the project Node.js baseline to 24 across local development, CI, Docker, and contributor-facing documentation
+- `/clone-website` skill requires the clone gate (and `--strict` at completion) instead of an honor-system checklist
+- `INSPECTION_GUIDE.md` aligned with the skill's real artifacts (`BEHAVIORS.md`, `PAGE_TOPOLOGY.md`, component specs)
+- AGENTS.md documents `verify:clone` and "gates over reminders"
+- OpenAI demo component specs brought up to the gate's required headings
 
 ## [0.3.1] - 2026-03-29
 
